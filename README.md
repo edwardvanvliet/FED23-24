@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken vóór kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Homepagina van DigiD: https://www.digid.nl/
+  De homepagina van DigiD: https://www.digid.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   HOMEPAGINA  
