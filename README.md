@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De homepagina van DigiD: https://www.digid.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  HOMEPAGINA  
+  Homepagina  
   <img src="readme-images/Homepagina_web_capture_4-9-2023_171610_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  INLOGMETHODES  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Inlogmethodes  
+  <img src="readme-images/Inlogmethodes_web_capture_4-9-2023_172137_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
