@@ -40,10 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina:   
+     
   <img src="readme-images/Homepagina_web_capture_4-9-2023_171610_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Inlogmethodes:   
+     
   <img src="readme-images/Inlogmethodes_web_capture_4-9-2023_172137_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
