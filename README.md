@@ -46,7 +46,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Helpdesk:   
      
-  <img src="readme-images/Inlogmethodes_web_capture_4-9-2023_172137_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Helpdesk_web_capture_5-9-2023_184020_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
