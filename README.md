@@ -59,7 +59,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Screenreader:
+  + Headings worden goed opgeroepen door de Narrator.
+  + Links worden ook correct opgeroepen als je er doorheen tabt.
+  + Zoekbalk en invulveld gaat ook goed.
+  + De 'Helpdesk-pagina' (mijn tweede pagina) wordt ook goed opgeroepen.
+  - Het logo van de Rijksoverheid bovenin (in het midden) wordt overgeslagen door de Narrator, terwijl het icoontje linksboven wél wordt benoemd.
+  - Scan mode: "Item heeft geen primary action."
+  - Link voor talen niet duidelijk: "Link NL" en "Link EN", voor beperkten onduidelijk dat het om de talen Nederlands en Engels gaat (toggle).
+  - Heading levels onder de 'Manieren van inloggen-sectie' (op de homepagina), hier worden voor de Headings: DigiD App, Sms-controle, Gebruikersnaam en wachtwoord & Identiteitsbewijs, Heading level 6 gebruikt, terwijl in de footer ook Heading level 6 wordt gebruikt. Je zou hiervoor eerder de Heading level 3, 4 óf 5 gebruiken. 
 
+  
 </details>
 
 
