@@ -88,7 +88,7 @@ footer {
 
 }
 
-footer h3 {
+footer h3, a {
 	color: var(--color-background-topbar);
 }
 
