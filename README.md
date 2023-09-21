@@ -83,13 +83,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele eerste pagina (Homepagina): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets_Pagina_1_Homepagina_DigiD.png" width="375px" alt="Breakdownschets van heel pagina 1">
 
   ### de hele tweede pagina (Helpdesk): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdownschets van heel pagina 2">
 
   ### dynamisch deel (bijv. menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdownschets van het navigatiemenu">
 
 
 </details>
