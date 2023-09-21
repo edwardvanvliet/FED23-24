@@ -106,7 +106,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Het opstellen van de HTML ging wel goed, alleen had ik een paar twijfelgevallen, namelijk of je een hr kunt gebruiken én wat te gebruiken bij een sluisteken (vertical bar):
   <img src="readme-images/hr_gebruik.png" width="375px" alt="Gebruik van hr's">
-  <img src="readme-images/hr_gebruik.png" width="375px" alt="Gebruik van hr's">
+  <img src="readme-images/vertical_bar.png" width="375px" alt="Gebruik van vertical bar">
 
 
   ### Agenda voor meeting
