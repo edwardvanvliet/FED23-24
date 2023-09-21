@@ -2,10 +2,8 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;  
 }
-
-
 
 
 
@@ -32,10 +30,44 @@
 
 
 
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
+
+
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+body {
+	margin: 0;
+	background-color: var(--color-background);
+	color: var(--color-text);
+  }
+
+
+
+
+/************************/
+/* LAYOUT VAN DE HEADER */
+/************************/
+header {
+	background-color:var(--color-header-background);
+	
+	position:sticky;
+	top:0;
+	z-index:10;
+	
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+  }
+
+
+
+
+/*************/
+/* LOGO HEADER DigiD LINKSBOVEN */
+/*************/
 
