@@ -100,7 +100,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -110,10 +110,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | HTML check  | en dit             | Het in- en uitklappen van de navbar    | en dan ik dat    |
+  | Dropdown | dit als er tijd is | Of het toegestaan is om hr's te gebruiken in de html | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -145,7 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | HTML check dropdown  | en dit             | en ik dit    | en dan ik dat    |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
