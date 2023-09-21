@@ -14,32 +14,94 @@
 
 <body>
 	<header>
-		<a href="https://www.digid.nl/"><img src="images/digid-logo-header-klein.svg" alt="DigiD logo header klein"></a>
-
-		<img src="images/rijksoverheid-logo-header-midden.svg" alt="Rijksoverheid header logo">
-		
 		<nav>
+			<a href="https://www.digid.nl/">
+				<img src="images/digid-logo-header-klein.svg" alt="DigiD logo header klein">
+			</a>
+
 			<ul>
 				<li>
-					<a href=""><img src="images/mijn-digid-profiel-icon.svg" alt="Mijn DigiD profiel icon"></a>
+					<img src="images/rijksoverheid-logo-header-midden.svg" alt="Rijksoverheid header banner logo">
+				</li>
+
+				<li>
+					<button>
+						<img src="images/hamburgermenu-icon-zwart.svg" alt="Menu icoon hamburgermenu">
+						<h2>Menu</h2>
+					</button>
 				</li>
 			</ul>
 		</nav>
+
+		<!-- uitklapbare navbar (menubalk) -->
+		<nav>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/mijn-digid-profiel-icon.svg" alt="Mijn DigiD profiel icon">
+						Mijn DigiD
+					</a>
+				</li>
+
+				<li>
+					<hr>
+				</li>
+
+				<li>
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+
+						<li>
+							<a href="#">Aanvragen & activeren</a>
+						</li>
+						
+						<li>
+							<a href="#">Manieren van inloggen</a>
+						</li>
+
+						<li>
+							<a href="#">Veiligheid</a>
+						</li>
+
+						<li>
+							<a href="#">Hulp & Contact</a>
+						</li>
+					</ul>
+				</li>
+			
+				<li>
+					<button>
+						<h4>Sluit</h4>
+						<img src="/images/" alt="Icoon kruisje">
+					</button>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- het zoekbalk met daarin een invulvuld met button -->
+    	<form role="search" action="#">
+        	<input type="search" name="search" id="search" placeholder="Zoeken op DigiD" autocomplete="off" aria-label="zoeken">
+        	<button type="submit">
+				<img src="/images/zoek-icon-wit-zoekbalk-enterknop.svg" alt="Zoek icoontje in de enterknop van de zoekbalk">
+			</button>
+    	</form>
 	</header>
 
 	<main>
 		<section>
 			<h1>Laat zien wie je bent</h1>
-				<button>Aanvragen</button>
-				<button>Activeren</button>
+				<a href="#">Aanvragen</a>
+				<a href="#">Activeren</a>
 		</section>
 
 		<section>
-			<article>
+			<section>
 				<h2>Machtigen</h2>
 				<p>Iemand uw zaken laten regelen door bijv. de Belastingsdienst? Gebruik machtigen.</p>
 					<button>Meer informatie</button>
-			</article>
+			</section>
 		</section>
 
 		<section>
@@ -54,21 +116,51 @@
 			<h2>Manieren van inloggen</h2>
 			<p>Voeg meer manieren toe en regel meer met uw DigiD.</p>
 			<hr>
-				<ul>
-					<li>
-						<h3><a href="">DigiD app</a></h3>
+			<ul>
+				<li>
+					<a href="#">
+						<h3>DigiD app</h3>
 						<p>De makkelijkste manier om veilig in te loggen</p>
-						<hr>
-						<h3><a href="">Sms-controle</a></h3>
+						<img src="/images/DIGID_Iconen_App.svg" alt="DigiD icoon DigiD app">
+					</a>
+				</li>
+
+				<li>
+					<hr>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Sms-controle</h3>
 						<p>Inloggen met een sms-code</p>
-						<hr>
-						<h3><a href="">Gebruikersnaam en wachtwoord</a></h3>
+						<img src="/images/DIGID_Iconen-SMS.svg" alt="DigiD icoon Sms-controle">
+					</a>
+				</li>
+
+				<li>
+					<hr>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Gebruikersnaam en wachtwoord</h3>
 						<p>Inloggen met gebruikersnaam en wachtwoord</p>
-						<hr>
-						<h3><a href="">Identiteitsbewijs</a></h3>
+						<img src="/images/DIGID_Iconen-Username.svg" alt="DigiD icoon Gebruikersnaam en wachtwoord">
+					</a>
+				</li>
+					
+				<li>
+					<hr>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Identiteitsbewijs</h3>
 						<p>Voor toegang tot extra privacygevoelige gegevens</p>
-					</li>
-				</ul>
+						<img src="/images/DIGID_Iconen-ID.svg" alt="DigiD icoon Identiteitsbewijs">
+					</a>	
+				</li>
+			</ul>
 		</section>
 
 		<section>
@@ -76,36 +168,54 @@
 			<hr>
 			<ul>
 				<li>
-					<h5><a href="">Hoe voeg ik ID-check toe aan de DigiD app</a></h5>
+					<h5><a href="#">Hoe voeg ik ID-check toe aan de DigiD app</a></h5>
 				</li>
-				<hr>
+
 				<li>
-					<h5><a href="">Hoe herken ik een valse e-mail of sms?</a></h5>
+					<hr>
 				</li>
-				<hr>
+				
 				<li>
-					<h5><a href="">Waarom lukt het activeren van mijn rijbewijs/ID-kaart niet?</a></h5>
+					<h5><a href="#">Hoe herken ik een valse e-mail of sms?</a></h5>
 				</li>
-				<hr>
+
 				<li>
-					<h5><a href="">Hoe vraag ik een DigiD aan?</a></h5>
+					<hr>
 				</li>
-				<hr>
+				
 				<li>
-					<h5><a href="">Hoe activeer ik de DigiD app?</a></h5>
+					<h5><a href="#">Waarom lukt het activeren van mijn rijbewijs/ID-kaart niet?</a></h5>
 				</li>
-				<hr>
+
+				<li>
+					<hr>
+				</li>
+				
+				<li>
+					<h5><a href="#">Hoe vraag ik een DigiD aan?</a></h5>
+				</li>
+
+				<li>
+					<hr>
+				</li>
+				
+				<li>
+					<h5><a href="#">Hoe activeer ik de DigiD app?</a></h5>
+				</li>
+
+				<li>
+					<hr>
+				</li>
 			</ul>
 		</section>
 
 		<section>
-			<img src="images/app-min.jpg" alt="DigiD app OTS POV vanuit de gebruiker">
-
+			<img src="images/app-min.jpg" alt="Afbeelding van de DigiD app OTS POV vanuit de gebruiker">
 		</section>
 	</main>
 
 	<footer>
-
+		
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
