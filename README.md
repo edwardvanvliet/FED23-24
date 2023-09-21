@@ -125,7 +125,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Uitklappen met JavaScript óf ::before & ::after
   - Navbar (hamburgermenu) met JavaScript - Toggle
   - Geen Hr's!
-  - 
+  - TranslateX(0)
   - ...
 
 </details>
