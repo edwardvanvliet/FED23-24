@@ -112,8 +112,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | HTML check  | en dit             | Het in- en uitklappen van de navbar    | Wat wordt er van ons verwacht qua functionaliteiten zoals filters?    |
-  | Dropdown | dit als er tijd is | Of het toegestaan is om hr's te gebruiken in de html | dit wil ik zeker |
+  | HTML check  | Of de H1 in de header of de main moet komen wanneer deze verborgen is op de website             | Het in- en uitklappen van de navbar    | Wat wordt er van ons verwacht qua functionaliteiten zoals filters?    |
+  | Dropdown | Of ik het logo van de website kan weergeven als de H1 | Of het toegestaan is om hr's te gebruiken in de html | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
