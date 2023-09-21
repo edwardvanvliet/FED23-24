@@ -123,8 +123,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitklappen met JavaScript óf ::before & ::after
-  - punt 2
-  - nog een punt
+  - Navbar (hamburgermenu) met JavaScript - Toggle
+  - Geen Hr's!
+  - 
   - ...
 
 </details>
