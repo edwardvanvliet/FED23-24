@@ -15,8 +15,18 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-main: #D96704;
+
+	--color-text: #111;
+	--color-background: #F5F5F5;
+
+	--color-background-topbar: white;
+
+	--color-banner: #174873;
+
+	--color-background-navmenu: #FBFBFB;
+	--color-background-footer: #282828;
+	--color-background-card: var(--color-background-topbar);
 }
 
 
