@@ -112,7 +112,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | HTML check  | en dit             | Het in- en uitklappen van de navbar    | en dan ik dat    |
+  | HTML check  | en dit             | Het in- en uitklappen van de navbar    | Wat wordt er van ons verwacht qua functionaliteiten zoals filters?    |
   | Dropdown | dit als er tijd is | Of het toegestaan is om hr's te gebruiken in de html | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
