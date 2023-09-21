@@ -12,7 +12,6 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-main: #D96704;
 
 	--color-text: #111;
@@ -53,15 +52,15 @@ body {
 /* LAYOUT VAN DE HEADER */
 /************************/
 header {
-	background-color:var(--color-header-background);
+	background-color: var(--color-header-background);
 	
-	position:sticky;
-	top:0;
-	z-index:10;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 	
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
   }
 
 
@@ -70,4 +69,23 @@ header {
 /*************/
 /* LOGO HEADER DigiD LINKSBOVEN */
 /*************/
+
+
+
+
+/*************/
+/* MAIN */
+/*************/
+
+
+
+
+/*************/
+/* LAYOUT VAN DE FOOTER */
+/*************/
+footer {
+	background-color: var(--color-background-footer);
+	
+}
+
 
