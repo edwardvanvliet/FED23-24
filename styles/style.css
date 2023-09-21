@@ -85,7 +85,11 @@ header {
 /*************/
 footer {
 	background-color: var(--color-background-footer);
-	
+
+}
+
+footer h3 {
+	color: var(--color-background-topbar);
 }
 
 
