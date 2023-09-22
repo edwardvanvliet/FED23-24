@@ -105,7 +105,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Het opstellen van de HTML ging wel goed, alleen had ik een paar twijfelgevallen, namelijk of je een hr kunt gebruiken én wat te gebruiken bij een sluisteken (vertical bar):
+  
   <img src="readme-images/hr_gebruik.png" width="375px" alt="Gebruik van hr's">
+  
   <img src="readme-images/vertical_bar.png" width="375px" alt="Gebruik van vertical bar">
 
 
@@ -123,9 +125,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitklappen met JavaScript óf ::before & ::after
-  - Navbar (hamburgermenu) met JavaScript - Toggle
-  - Geen Hr's!
-  - TranslateX(0)
+  - Navbar (hamburgermenu) met JavaScript - Toggle - ClassList-methode
+  - Geen hr's gebruiken! Geen enkele vorm van styling toegestaan in de HTML
+  - TranslateX(0) om het te verbergen 
   - ...
 
 </details>
@@ -249,7 +251,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. [MDN: -webkit-text-stroke, voor Typografie oefening 2 (TRUMP VS BIDEN).](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
-  2. bron 2
-  3. ...
+  2. [MDN: de transform function, translatex(0) om de navbar te verbergen.](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX)
+  3. bron 3
+  4. ...
 
 </details>
