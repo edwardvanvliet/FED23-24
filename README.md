@@ -47,7 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Helpdesk:   
      
   <img src="readme-images/Helpdesk_web_capture_6-9-2023_2433_www.digid.nl.jpeg" width="375px" alt="omschrijving van de pagina">
- 
+  
 </details>
 
 
