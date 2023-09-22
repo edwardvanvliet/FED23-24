@@ -124,11 +124,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Uitklappen met JavaScript óf ::before & ::after
-  - Navbar (hamburgermenu) met JavaScript - Toggle - ClassList-methode
-  - Geen hr's gebruiken! Geen enkele vorm van styling toegestaan in de HTML
-  - TranslateX(0) om het te verbergen 
-  - ...
+  - Naar beneden uitklappen met JavaScript óf met ::before & ::after
+  - Navbar (hamburgermenu) met JavaScript - Toggle - ClassList-methode gebruiken
+  - Geen hr's gebruiken! Geen enkele vorm van styling toegestaan in de HTML!
+  - TranslateX(0) om het navigatiemenu te verbergen
+  - Géén classes gebruiken voor "active" - op welke taal de pagina nu staat, dus NL of EN
 
 </details>
 
