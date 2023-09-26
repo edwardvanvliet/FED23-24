@@ -86,7 +86,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Breakdownschets_Pagina_1_Homepagina_DigiD.png" width="375px" alt="Breakdownschets van heel pagina 1">
 
   ### de hele tweede pagina (Helpdesk): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdownschets van heel pagina 2">
+  <img src="readme-images/Breakdownschets_Pagina_2_Helpdesk_DigiD.png" width="375px" alt="Breakdownschets van heel pagina 2">
 
   ### dynamisch deel (bijv. menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdownschets van het navigatiemenu">
