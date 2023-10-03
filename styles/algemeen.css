@@ -29,7 +29,7 @@
   /************************************/
   /* CUSTOM PROPERTIES VOOR DARK MODE */
   /************************************/
-  @media (prefers-color-scheme: dark) {
+  /*@media (prefers-color-scheme: dark) {
     :root {
         --color-main: #D96704;
         
@@ -84,7 +84,7 @@ header {
 
 nav:first-of-type {
   display: flex;
-  
+
 }
 
 nav ul:first-of-type {
