@@ -7,28 +7,6 @@
 
 
 
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	--color-main: #D96704;
-
-	--color-text: #111;
-	--color-background: #F5F5F5;
-
-	--color-background-topbar: white;
-
-	--color-banner: #174873;
-
-	--color-background-navmenu: #FBFBFB;
-	--color-background-footer: #282828;
-	--color-background-card: var(--color-background-topbar);
-}
-
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -36,69 +14,16 @@
 /* jouw code */
 
 
-/********************/
-/* ALGEMENE STIJLEN */
-/********************/
-body {
-	margin: 0;
-	background-color: var(--color-background);
-	color: var(--color-text);
-  }
 
-
-
-
-/************************/
-/* LAYOUT VAN DE HEADER */
-/************************/
-header {
-	background-color: var(--color-header-background);
-	
-	position: sticky;
-	top: 0;
-	z-index: 10;
-	
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-  }
-
-nav ul:first-of-type {
-	display: flex;
-	justify-content: space-between;
-  }
-  
-nav ul:first-of-type li {
-	
-  }
-  
-
-
-
-/*************/
-/* LOGO HEADER DigiD LINKSBOVEN */
-/*************/
-
-
-
-
-/*************/
+/********/
 /* MAIN */
-/*************/
-
-
-
-
-/*************/
-/* LAYOUT VAN DE FOOTER */
-/*************/
-footer {
-	background-color: var(--color-background-footer);
-
+/********/
+main section:first-of-type h1 {
+	position: absolute;
 }
 
-footer h3, a {
-	color: var(--color-background-topbar);
-}
+
+
+
 
 
