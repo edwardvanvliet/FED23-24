@@ -26,9 +26,11 @@
 /********/
 main {
   position:relative;
+  left: 1em;
+  right: 1em;
 }
 
-main section:first-of-type{
+main section:first-of-type {
   background-color: var(--color-main);
 
 }
