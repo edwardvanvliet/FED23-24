@@ -77,23 +77,23 @@ header {
   padding:1em;
 	z-index:10;
 	
-	display: flex;
-	flex-wrap: wrap;
+	display:flex;
+	flex-wrap:wrap;
 	justify-content: space-between;
   }
 
 nav:first-of-type {
-  display: flex;
+  display:flex;
 
 }
 
 nav ul:first-of-type {
-	display: flex;
+	display:flex;
 	justify-content: space-between;
   }
   
 nav ul:first-of-type li {
-	display: flex;
+	display:flex;
   }
 
 
@@ -131,3 +131,56 @@ footer h3, a {
 }
 
 
+
+
+/****************************************************/
+/* RESPONSIVENESS ALS SCHERM MINIMAAL 38EM BREED IS */
+/****************************************************/
+@media(width > 38em) {
+  header > button:nth-of-type(2) {
+    display:none;
+
+  }
+  
+  nav {
+    position:static;
+    translate:unset;
+    background:unset;
+    
+  }
+  
+  nav button {
+    display:none;
+    
+  }
+  
+  nav ul {
+    display:flex;
+    gap:1em;
+    
+  }
+  
+  nav a {
+    border-bottom: unset;
+    
+    display:flex;
+    flex-direction:column; 
+    
+  }
+  
+  header > a:last-of-type {
+    display:flex;
+    flex-direction:column; 
+    
+  }
+}
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 57em breed is */
+/****************************************************************/
+@media (width > 57em) {
+  header > a:last-of-type, nav a {
+    flex-direction: row;
+    
+  }
+}
