@@ -15,6 +15,12 @@
 
 
 
+/**********/
+/* HEADER */
+/**********/
+
+
+
 /********/
 /* MAIN */
 /********/
@@ -22,10 +28,15 @@ main {
   position:relative;
 }
 
-main section:first-of-type h1 {
-	position:absolute;
+main section {
+  position:absolute;
+  background-color: var(--color-main);
+
 }
 
+main section:first-of-type h1 {
+	color:var(--color-text);
+}
 
 
 
