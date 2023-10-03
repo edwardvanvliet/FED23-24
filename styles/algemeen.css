@@ -82,6 +82,11 @@ header {
 	justify-content: space-between;
   }
 
+nav:first-of-type {
+  display: flex;
+  
+}
+
 nav ul:first-of-type {
 	display: flex;
 	justify-content: space-between;
