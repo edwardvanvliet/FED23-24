@@ -29,7 +29,7 @@
   /************************************/
   /* CUSTOM PROPERTIES VOOR DARK MODE */
   /************************************/
-  @media (prefers-color-scheme: dark) {
+  /*@media (prefers-color-scheme: dark) {
     :root {
         --color-main: #D96704;
         
