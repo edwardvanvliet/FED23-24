@@ -29,7 +29,7 @@
   /************************************/
   /* CUSTOM PROPERTIES VOOR DARK MODE */
   /************************************/
-  /*@media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
     :root {
         --color-main: #D96704;
         
@@ -72,9 +72,10 @@ body {
 header {
 	background-color: var(--color-header-background);
 	
-	position: sticky;
-	top: 0;
-	z-index: 10;
+	position:sticky;
+	top:0;
+  padding:1em;
+	z-index:10;
 	
 	display: flex;
 	flex-wrap: wrap;
