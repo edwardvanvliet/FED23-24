@@ -30,7 +30,7 @@ main {
   right: 1em;
 }
 
-main section:first-child {
+main section > :first-child {
   background-color: var(--color-main);
 
 }
