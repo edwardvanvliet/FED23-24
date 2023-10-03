@@ -28,8 +28,7 @@ main {
   position:relative;
 }
 
-main section {
-  position:absolute;
+main section:first-of-type{
   background-color: var(--color-main);
 
 }
