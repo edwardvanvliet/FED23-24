@@ -89,7 +89,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Breakdownschets_Pagina_2_Helpdesk_DigiD.png" width="375px" alt="Breakdownschets van heel pagina 2">
 
   ### dynamisch deel (bijv. menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdownschets van het navigatiemenu">
+  <img src="readme-images/Breakdownschets_Menubalk_Navigatiebar_DigiD.png" width="375px" alt="Breakdownschets van het navigatiemenu">
 
 
 </details>
@@ -138,7 +138,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
