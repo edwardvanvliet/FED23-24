@@ -86,8 +86,8 @@ header nav a img:first-child {
 
 header nav ul li img {
   top: 0;
-
-
+  list-style: none;
+  
   display: flex;
   justify-content: center;
 }
@@ -95,6 +95,7 @@ header nav ul li img {
 header nav ul li button:first-child {
   position: absolute;
 
+  list-style: none;
   top: 0;
   right: 0;
 
