@@ -83,17 +83,27 @@ header {
 }
 
 header nav a img:first-child {
-  width: 2.8125em;
-  height: 2.8125em;
-  
+  position: absolute;
+
+  max-width: 2.8125em;
+  max-height: 2.8125em;
+
 }
 
 header nav ul li img {
-  position: sticky;
+  position: absolute;
   top: 0;
+
 
   display: flex;
   justify-content: center;
+}
+
+header nav ul li button:first-child {
+  position: absolute;
+
+  top: 0;
+  right: 0;
 }
 
 nav:first-of-type {
@@ -144,6 +154,8 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
   grid-auto-flow: dense;
+
+  padding: 1.25em 1.9375em 1.625em;
 
 }
 
