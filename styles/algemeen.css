@@ -68,7 +68,6 @@ header {
 	
 	position: sticky;
 	top: 0;
-	z-index: 100;
 	
 	display: flex;
 	flex-wrap: wrap;
@@ -137,7 +136,49 @@ nav ul:first-child li {
 /********/
 /* MAIN */
 /********/
+main section h1 {
+  padding-right: .5em;
+  padding-left: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 3.75em;
+  
+  display: block;
+  box-sizing: border-box;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  line-height: .75em;
+  color: var(--color-background-topbar);
+}
 
+main section h2 {
+  padding-right: .5em;
+  padding-left: .5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+
+  display: block;
+  box-sizing: border-box;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  line-height: .75em;
+
+  position: relative;
+  margin-top: 1.56em;
+  margin-left: 1.25em;
+  color: var(--color-main);
+}
+
+main section h3 {
+  padding: 0 .5em;
+  margin: 0;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: var(--color-text);
+}
 
 
 
@@ -168,7 +209,7 @@ footer h3, a {
 /************************************************************/
 /* RESPONSIVENESS ALS SCHERM/BROWSER MINIMAAL 38EM BREED IS */
 /************************************************************/
-@media (width > 38em) {
+/*@media (width > 38em) {
   header > button:nth-of-type(2) {
     display:none;
 
@@ -210,7 +251,7 @@ footer h3, a {
 /*********************************************************/
 /* STYLING VOOR DE HEADER ALS HIJ MINIMAAL 57EM BREED IS */
 /*********************************************************/
-@media (width > 57em) {
+/*@media (width > 57em) {
   header > a:last-of-type, nav a {
     flex-direction: row;
     
