@@ -79,7 +79,22 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-  }
+
+}
+
+header nav a img:first-child {
+  width: 2.8125em;
+  height: 2.8125em;
+  
+}
+
+header nav ul li img {
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+}
 
 nav:first-of-type {
   display: flex;
