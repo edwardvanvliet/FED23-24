@@ -250,7 +250,7 @@ footer h3, a, p {
 /************************************************************/
 /* RESPONSIVENESS ALS SCHERM/BROWSER MINIMAAL 38EM BREED IS */
 /************************************************************/
-/*@media (width > 38em) {
+@media (width > 38em) {
   header > button:nth-of-type(2) {
     display:none;
 
