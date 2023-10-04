@@ -6,7 +6,7 @@
 }
   
   
-  
+
   /******************************/
   /* ALGEMENE CUSTOM PROPERTIES */
   /******************************/
@@ -72,28 +72,29 @@ body {
 header {
 	background-color: var(--color-header-background);
 	
-	position:sticky;
-	top:0;
-  padding:1em;
-	z-index:10;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 	
-	display:grid;
-	flex-wrap:wrap;
+	display: grid;
+	flex-wrap: wrap;
 	justify-content: space-between;
   }
 
 nav:first-of-type {
-  display:flex;
+  display: flex;
 
 }
 
 nav ul:first-of-type {
-	display:flex;
+	display: flex;
 	justify-content: space-between;
+
   }
   
 nav ul:first-of-type li {
-	display:flex;
+	display: flex;
+
   }
 
 
@@ -123,6 +124,11 @@ nav ul:first-of-type li {
 /************************/
 footer {
 	background-color: var(--color-background-footer);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-flow: dense;
 
 }
 
@@ -175,9 +181,9 @@ footer h3, a {
   }
 }
 
-/****************************************************************/
-/* STYLING VOOR DE HEADER ALS HIJ MINIMAAL 57EM */
-/****************************************************************/
+/*********************************************************/
+/* STYLING VOOR DE HEADER ALS HIJ MINIMAAL 57EM BREED IS */
+/*********************************************************/
 @media (width > 57em) {
   header > a:last-of-type, nav a {
     flex-direction: row;
