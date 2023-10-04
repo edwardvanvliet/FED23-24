@@ -105,20 +105,23 @@ header nav ul li button:first-child {
   text-align: right;
 }
 
-nav:first-child {
+header nav:first-child {
   display: flex;
 
+  z-index: 100;
 }
 
-nav ul:first-child {
+header nav ul:first-child {
 	display: flex;
 	justify-content: space-between;
-
+  
+  z-index: 100;
   }
   
-nav ul:first-child li {
+header nav ul:first-child li {
 	display: flex;
 
+  z-index: 100;
   }
 
 
