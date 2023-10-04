@@ -133,10 +133,10 @@ footer h3, a {
 
 
 
-/****************************************************/
-/* RESPONSIVENESS ALS SCHERM MINIMAAL 38EM BREED IS */
-/****************************************************/
-@media(width > 38em) {
+/************************************************************/
+/* RESPONSIVENESS ALS SCHERM/BROWSER MINIMAAL 38EM BREED IS */
+/************************************************************/
+@media (width > 38em) {
   header > button:nth-of-type(2) {
     display:none;
 
@@ -176,7 +176,7 @@ footer h3, a {
 }
 
 /****************************************************************/
-/* styling voor de header als de browser minimaal 57em breed is */
+/* STYLING VOOR DE HEADER ALS HIJ MINIMAAL 57EM */
 /****************************************************************/
 @media (width > 57em) {
   header > a:last-of-type, nav a {
