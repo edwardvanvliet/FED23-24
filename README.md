@@ -153,7 +153,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Verder ben ik benieuwd hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS, als je er (zoals bij mijn geval) bijv. meerdere hebt.
 
-  <img src="readme-images/" width="375px" alt="@font-face meerdere fonts geïmporteerd, een daarvan selecteren">
+  <img src="readme-images/font_face_hoe_selecteer_je_een_type_font.png" width="375px" alt="@font-face meerdere fonts geïmporteerd, één daarvan selecteren">
 
 
   ### Agenda voor meeting
