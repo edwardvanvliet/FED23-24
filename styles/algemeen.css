@@ -144,7 +144,7 @@ main section h1 {
   padding: 0 .5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 2em;
 
   display: block;
   box-sizing: border-box;
@@ -158,7 +158,7 @@ main section h2 {
   padding: 0 .5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 2em;
 
   display: block;
   box-sizing: border-box;
@@ -175,7 +175,7 @@ main section h2 {
 main section h3 {
   padding: 0 .5em;
   margin: 0;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   color: var(--color-text);
@@ -184,7 +184,7 @@ main section h3 {
 main section h4 {
   padding: 0 .5em;
   margin: 0;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 450;
   color: var(--color-text);
@@ -193,7 +193,7 @@ main section h4 {
 main section h5 {
   padding: 0 .5em;
   margin: 0;
-  font-size: .75em;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 250;
   color: var(--color-text);
@@ -202,7 +202,7 @@ main section h5 {
 main section p {
   padding: 0 .5em;
   margin: 0;
-  font-size: .75em;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   color: var(--color-text);
@@ -253,7 +253,7 @@ footer h3, a, p {
 /************************************************************/
 /* RESPONSIVENESS ALS SCHERM/BROWSER MINIMAAL 38EM BREED IS */
 /************************************************************/
-@media (width > 38em) {
+/*@media (width > 38em) {
   header > button:nth-of-type(2) {
     display:none;
 
@@ -292,9 +292,9 @@ footer h3, a, p {
   }
 }
 
-/*********************************************************/
-/* STYLING VOOR DE HEADER ALS HIJ MINIMAAL 57EM BREED IS */
-/*********************************************************/
+/********************************************************************/
+/* STYLING VOOR DE HEADER ALS SCHERM/BROWSER MINIMAAL 57EM BREED IS */
+/********************************************************************/
 /*@media (width > 57em) {
   header > a:last-of-type, nav a {
     flex-direction: row;
