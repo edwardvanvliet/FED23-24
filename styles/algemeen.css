@@ -77,6 +77,12 @@ header {
 
 }
 
+header nav:first-of-type{
+  display: flex;
+  justify-content: space-between;
+
+}
+
 header nav a img:first-child {
   position: sticky;
 
@@ -104,19 +110,6 @@ header nav ul li button:first-child {
   text-align: right;
 }
 
-header nav:first-child {
-  display: flex;
-
-  z-index: 100;
-}
-
-header nav ul:first-child {
-	display: flex;
-	justify-content: space-between;
-  
-  z-index: 100;
-  }
-  
 header nav ul:first-child li {
 	display: flex;
 
@@ -127,9 +120,9 @@ header nav ul:first-child li {
 
 
 
-/**************************************/
-/* LAYOUT VAN DE MENUBALK - NAVIGATIE */
-/**************************************/
+/********************************************************/
+/* LAYOUT VAN HET NAVIGATIEMENU - IN MENUKNOP VERBORGEN */
+/********************************************************/
 
 
 
@@ -283,7 +276,7 @@ footer section:last-of-type a {
 /********************************************************************/
 /* STYLING VOOR DE HEADER ALS SCHERM/BROWSER MINIMAAL 57EM BREED IS */
 /********************************************************************/
-/*@media (width > 57em) {
+@media (width > 57em) {
   header > a:last-of-type, nav a {
     flex-direction: row;
     
