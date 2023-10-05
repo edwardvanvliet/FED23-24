@@ -179,7 +179,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - height: 100%
   - object-fit:cover
   - object-position
-- ...
+  - > direct child selector
+  -.
 
 </details>
 
