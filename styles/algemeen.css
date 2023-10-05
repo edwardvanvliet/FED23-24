@@ -110,6 +110,10 @@ header nav a img:first-child {
 
 }
 
+header nav ul {
+  list-style-type: none;
+}
+
 header nav ul li > img {
   top: 0;
   list-style-type: none;
