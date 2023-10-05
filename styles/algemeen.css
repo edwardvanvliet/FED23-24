@@ -223,7 +223,7 @@ footer h3, p {
 	color: var(--color-background-topbar);
 }
 
-footer section:last-of-type a {
+footer section:last-child a {
   display: flex;
   flex-direction: row;
 }
