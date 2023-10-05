@@ -51,6 +51,7 @@ main section:nth-of-type(6) {
 main section:nth-of-type(6) > img {
   position: absolute;
 
+  size: 100%;
   padding: 0 1em 3em;
 }
 
