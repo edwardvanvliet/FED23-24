@@ -24,8 +24,6 @@ main section:first-of-type {
 
 main section:first-of-type h1 {
   position: absolute;
-  left: 1em;
-  top: -.75em;
   
   padding: .5em;
   z-index: 50;
