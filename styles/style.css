@@ -35,7 +35,9 @@ main section:first-of-type h1 {
 
   background-color: var(--color-main);
 
-	color:var(--color-text);
+  font-family: "Rijksoverheid", Arial, sans-serif;
+  font-weight: bold;
+	color:var(--color-background-topbar);
 }
 
 main section:nth-of-type(6) {
