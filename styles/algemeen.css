@@ -209,9 +209,7 @@ main section p {
 }
 
 main section img {
-  position: relative;
-  height: 100%;
-  width: 100%;
+  position: absolute;
   left: 0;
   right: 0;
 }
