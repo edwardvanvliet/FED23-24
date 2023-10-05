@@ -142,8 +142,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De footer gaat de goede kant op, met display: grid. Wat er fout gaat: een aantal afbeeldingen en iconen worden niet weergegeven op de website, zoals hieronder te zien is.
+  Heeft dit dan te maken met de type afbeelding (webp, jpg, jpeg of png)?
 
+  <img src="readme-images/afbeeldingen_iconen_worden_niet_weergegeven.png" width="375px" alt="Afbeeldingen en iconen worden niet weergegeven">
+  <img src="readme-images/afbeeldingen_iconen_worden_niet_weergegeven_voorbeeld_html_code.png" width="375px" alt="Afbeeldingen en iconen worden niet weergegeven - html code">
 
   ### Agenda voor meeting
   Samen met je groepje opstellen:
