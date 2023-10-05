@@ -130,9 +130,31 @@ header nav ul li button:first-child {
 }
 
 header nav ul:first-child li {
-
   z-index: 100;
-  }
+
+}
+
+header nav button:first-child {
+  background-color: #007ACC;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+  display: flex;
+  align-items: center;
+}
+
+header nav button:first-child img{
+  width: 1em;
+  height: 1em;
+  margin-right: 10px;
+}
+
+header nav button:first-child h2{
+  margin: 0;
+  font-size: 1em;
+}
 
 header form {
   background-color: var(--color-background-navmenu);
