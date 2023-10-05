@@ -148,33 +148,24 @@ main section h1 {
 
   display: block;
   box-sizing: border-box;
-  margin-top: .25em;
-  margin-bottom: .25em;
   line-height: .75em;
   color: var(--color-background-topbar);
 }
 
 main section h2 {
-  padding: 0 .5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 2em;
 
   display: block;
   box-sizing: border-box;
-  margin-top: .25em;
-  margin-bottom: .25em;
   line-height: .75em;
 
   position: relative;
-  margin-top: 1.56em;
-  margin-left: 1.25em;
   color: var(--color-main);
 }
 
 main section h3 {
-  padding: 0 .5em;
-  margin: 0;
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -182,8 +173,6 @@ main section h3 {
 }
 
 main section h4 {
-  padding: 0 .5em;
-  margin: 0;
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 450;
@@ -191,8 +180,6 @@ main section h4 {
 }
 
 main section h5 {
-  padding: 0 .5em;
-  margin: 0;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 250;
@@ -200,8 +187,6 @@ main section h5 {
 }
 
 main section p {
-  padding: 0 .5em;
-  margin: 0;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
@@ -222,7 +207,6 @@ main section button {
 
 ul {
   list-style-type: none;
-  padding: 2.5em 2.25em 9.38em;
 }
 
 /************************/
