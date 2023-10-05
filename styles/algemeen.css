@@ -217,10 +217,6 @@ main section button {
   background-color: var(--color-background-topbar);
 }
 
-ul {
-  list-style-type: none;
-}
-
 /************************/
 /* LAYOUT VAN DE FOOTER */
 /************************/
