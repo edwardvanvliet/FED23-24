@@ -173,7 +173,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Voor images handig, max-width: 100%.
   - caniuse.com
   - flex-shrink:0;
-  - nog een punt
+  - ul li a
+  -          display: block;
+  - width: 100%
+  - height: 100%
+  - object-fit:cover
+  - object-position
 - ...
 
 </details>
