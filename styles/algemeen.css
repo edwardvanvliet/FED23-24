@@ -130,7 +130,6 @@ header nav ul li button:first-child {
 }
 
 header nav ul:first-child li {
-	display: flex;
 
   z-index: 100;
   }
