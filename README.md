@@ -150,9 +150,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | Waarom sommige afbeeldingen/iconen bij mij niet worden weergegeven op de website | Benieuwd hoe ik de text dropdowns van mijn site het beste kan aanpakken |
-  | en dat ook nog | dit als er tijd is | Hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS (als je er bijv. meerdere hebt) | ...              |
-  | ...            | ...                | Tot slot een check naar de lay-out (CSS) van mijn header, omdat die nog niet helemaal wil lukken | ...              |
+  | Het gebruik van webp i.p.v. png of jpg  | en dit             | Waarom sommige afbeeldingen/iconen bij mij niet worden weergegeven op de website | Benieuwd hoe ik de text dropdowns van mijn site het beste kan aanpakken |
+  | Het juist croppen en schalen van img's | dit als er tijd is | Hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS (als je er bijv. meerdere hebt) | ...              |
+  | Bij een img, een layer naar achter plaatsen            | ...                | Tot slot een check naar de lay-out (CSS) van mijn header, omdat die nog niet helemaal wil lukken | ...              |
+  | Het juist selecteren van de laatste a in section 3 voor styling           | ...                | ...              | ...              |
 
 
   ### Verslag van meeting
