@@ -129,7 +129,7 @@ header nav ul li button:first-child {
   text-align: right;
 }
 
-header nav button:first-of-type {
+.menuknop {
   background-color: #007ACC;
   color: #fff;
   border: none;
@@ -140,13 +140,13 @@ header nav button:first-of-type {
   align-items: center;
 }
 
-header nav button:first-of-type img{
+.menuknop img{
   width: 18.75px;
   height: 14.06px;
   margin-right: 8px;
 }
 
-header nav button:first-of-type h2{
+.menuknop h2{
   margin: 0;
   font-size: 1em;
 }
