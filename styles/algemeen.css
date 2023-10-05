@@ -231,6 +231,7 @@ footer {
   grid-auto-flow: dense;
 
   padding: 1.25em 1.9375em 1.625em;
+  bottom: 1.625em;
 }
 
 footer h3, p {
@@ -243,7 +244,7 @@ footer h3, p {
 footer section:last-child a, p {
   display: flex;
   flex-direction: row;
-  
+
 }
 
 
