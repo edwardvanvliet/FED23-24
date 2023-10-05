@@ -27,10 +27,13 @@ main section:first-of-type h1 {
   left: 1em;
   top: -.75em;
   
-  margin: 0;
   padding: .5em;
   z-index: 50;
-  border-radius: 10em;
+  border-radius: .25rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.8125em 1em 1em;
 
   background-color: var(--color-main);
 
