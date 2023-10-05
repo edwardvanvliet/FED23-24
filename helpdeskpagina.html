@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>DigiD Helpdesk</title>
+	
+	<link href="styles/helpdesk.css" rel="stylesheet">
+	<link href="styles/algemeen.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="https://www.digid.nl/">
+				<img src="images/digid-logo-header-klein.svg" alt="DigiD logo header klein">
+			</a>
+
+			<ul>
+				<li>
+					<img src="images/rijksoverheid-logo-header-midden.svg" alt="Rijksoverheid header banner logo">
+				</li>
+
+				<li>
+					<button>
+						<img src="images/hamburgermenu-icon-zwart.svg" alt="Menu icoon hamburgermenu">
+						<h2>Menu</h2>
+					</button>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- uitklapbare navbar (menubalk) -->
+		<nav>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/mijn-digid-profiel-icon.svg" alt="Mijn DigiD profiel icon">
+						Mijn DigiD
+					</a>
+				</li>
+
+				<li>
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+
+						<li>
+							<a href="#">Aanvragen & activeren</a>
+						</li>
+						
+						<li>
+							<a href="#">Manieren van inloggen</a>
+						</li>
+
+						<li>
+							<a href="#">Veiligheid</a>
+						</li>
+
+						<li>
+							<a href="#">Hulp & Contact</a>
+						</li>
+					</ul>
+				</li>
+			
+				<li>
+					<button type="button">
+						<img src="/images/" alt="Icoon kruisje">
+						Sluit
+					</button>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- het zoekbalk met daarin een invulvuld met button - AUTOCOMPLETE -->
+    	<form role="search" action="#">
+        	<input type="search" name="search" id="search" placeholder="Zoeken op DigiD" autocomplete="off" aria-label="zoeken">
+        	<button type="submit">
+				<img src="/images/zoek-icon-wit-zoekbalk-enterknop.svg" alt="Zoek icoontje in de enterknop van de zoekbalk">
+			</button>
+    	</form>
+	</header>
+
+    <main>
+        <section>
+            <h1>Dit is een Header 1.</h1>
+        </section>
+    </main>
+
+    <footer>
+		<section>
+			<h3>Algemeen</h3>
+			<ul>
+				<li>
+					<a href="#">Over DigiD</a>
+				</li>
+
+				<li>
+					<a href="#">Privacy</a>
+				</li>
+
+				<li>
+					<a href="#">Toegankelijkheid</a>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Contact</h3>
+			<ul>
+				<li>
+					<a href="#">Helpdesk</a>
+				</li>
+
+				<li>
+					<a href="#">Ik heb een klacht</a>
+				</li>
+
+				<li>
+					<a href="#">Meld kwetsbaarheid</a>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Language</h3>
+				<a href="#">NL</a>
+					<p>|</p>
+				<a href="#">EN</a>
+		</section>
+	</footer>
+
+	<script defer src="scripts/script.js"></script>
+</body>
+	
+</html>
