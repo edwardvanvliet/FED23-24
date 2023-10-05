@@ -296,7 +296,6 @@ footer section:last-child a, p {
 @media (width > 57em) {
   header > a:last-of-type, nav a {
     display: flex;
-    flex-direction: row;
     
   }
 }
