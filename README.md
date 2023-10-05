@@ -171,7 +171,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Voor images handig, max-width: 100%.
-  - punt 2
+  - caniuse.com
+  - flex-shrink:0;
   - nog een punt
 - ...
 
