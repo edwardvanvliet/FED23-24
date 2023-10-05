@@ -142,11 +142,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  De footer gaat de goede kant op, met display: grid. Wat er fout gaat: een aantal afbeeldingen en iconen worden niet weergegeven op de website, zoals hieronder te zien is.
+  Het main-gedeelte gaat de goede kant op en verder gaat de footer ook de goede kant op, onder andere met display: grid.
+  Wat er fout gaat: een aantal afbeeldingen en iconen worden niet weergegeven op de website, zoals hieronder te zien is.
   Heeft dit dan te maken met de type afbeelding (webp, jpg, jpeg of png)?
 
   <img src="readme-images/afbeeldingen_iconen_worden_niet_weergegeven.png" width="375px" alt="Afbeeldingen en iconen worden niet weergegeven">
+  
   <img src="readme-images/afbeeldingen_iconen_worden_niet_weergegeven_voorbeeld_html_code.png" width="375px" alt="Afbeeldingen en iconen worden niet weergegeven - html code">
+  
+
+  Verder ben ik benieuwd hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS, als je er (zoals bij mijn geval) bijv. meerdere hebt.
+
+  <img src="readme-images/" width="375px" alt="@font-face meerdere fonts geïmporteerd, een daarvan selecteren">
+
 
   ### Agenda voor meeting
   Samen met je groepje opstellen:
