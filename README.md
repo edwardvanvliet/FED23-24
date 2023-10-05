@@ -150,9 +150,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | Waarom sommige afbeeldingen/iconen bij mij niet worden weergegeven op de website | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | Hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS (als je er bijv. meerdere hebt) | dit wil ik zeker |
+  | ...            | ...                | Tot slot een check naar de lay-out (CSS) van mijn header, omdat die nog niet helemaal wil lukken | ...              |
 
 
   ### Verslag van meeting
