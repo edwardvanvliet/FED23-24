@@ -170,17 +170,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Voor images handig, max-width: 100%.
+  - Voor images handig -> max-width: 100%.
   - caniuse.com
   - flex-shrink:0;
-  - ul li a
-  -          display: block;
+  - ul li a {
+      display: block;
+    }
   - width: 100%
   - height: 100%
   - object-fit:cover
   - object-position
-  - > direct child selector
-  -.
+  - > = De direct child selector!
+  -...
 
 </details>
 
