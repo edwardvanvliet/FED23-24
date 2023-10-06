@@ -180,8 +180,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - height: 100%
   - object-fit:cover
   - object-position
-  - > = De direct child selector!
-  -...
+  - ">" = Direct child selector!
+  - Voor de <img src="../images/afbeeldingnaam.jpeg" alt="Lorem ipsum">.
+    Let hierbij op de "../images/" voor de src.
+    (Mappenstructuur, vanaf de root naar de uiteindelijke afbeelding, binnen(in) de "images-map".)
 
 </details>
 
