@@ -176,12 +176,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - ul li a {
       display: block;
     }
-  - width: 100%
-  - height: 100%
-  - object-fit:cover
-  - object-position
+  - width: 100%;
+  - height: 100%;
+  - object-fit:cover;
+  - object-position;
   - ">" = Direct child selector!
-  - Voor de <img src="../images/afbeeldingnaam.jpeg" alt="Lorem ipsum">.
+  - Voor de /*<img src="../images/afbeeldingnaam.jpeg" alt="Lorem ipsum">*/.
     Let hierbij op de "../images/" voor de src.
     (Mappenstructuur, vanaf de root naar de uiteindelijke afbeelding, binnen(in) de "images-map".)
 
