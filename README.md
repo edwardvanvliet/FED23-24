@@ -278,6 +278,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. [MDN: de transform function, translatex(0) om de navbar te verbergen.](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX)
   3. [Rijksoverheidfonts.](https://github.com/SLKTH/rijksoverheidfonts)
   4. [MDN: Font-face, fonts importeren.](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
-  5. Bron 5.
+  5. [MDN: Paths - SVG: Scalable Vector Graphics.](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths)
+  6. Bron 6.
+  7. Bron 7.
+  8. ...
 
 </details>
