@@ -53,17 +53,29 @@
 /* RIJKSOVERHEID FONTS GEÏMPORTEERD VAN https://github.com/SLKTH/rijksoverheidfonts */
 /************************************************************************************/
 /* Theorie over het importeren van fonts van MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
-@font-face {
+/*@font-face {
   font-family: "Rijksoverheid";
   src: 
   url(/fonts/rijksoverheidsansheading-bold.ttf) format("truetype"),
   url(/fonts/rijksoverheidsanstext-regular.ttf) format("truetype"),
   url(/fonts/rijksoverheidserif-italic.ttf) format("truetype"),
   url(/fonts/rijksoverheidserif-regular.ttf) format("truetype");
+}*/
+
+
+@font-face {
+  font-family: "rijksoverheid";
+  src: url(../fonts/rijksoverheidsanstext-regular.ttf) format("truetype");
+  font-weight: 400;
+  
 }
 
-
-
+@font-face {
+  font-family: "rijksoverheid";
+  src: url(../fonts/rijksoverheidsansheading-bold.ttf) format("truetype");
+  font-weight: 700;
+  
+}
 
 /********************/
 /* ALGEMENE STIJLEN */
@@ -73,7 +85,7 @@ body {
     background-color: var(--color-background);
     color: var(--color-text);
 
-    font-family: "Rijksoverheid", Arial, sans-serif;
+    font-family: "rijksoverheid", Arial, sans-serif;
     font-size: 1em;
 }
 
@@ -112,6 +124,8 @@ header nav a img:first-child {
 
 header nav ul li > img {
   top: 0;
+  max-width: 100%;
+
   list-style-type: none;
 
   display: flex;
@@ -130,8 +144,8 @@ header nav ul li button:first-child {
 }
 
 .menuknop {
-  background-color: #007ACC;
-  color: #fff;
+  background-color: var(--color-background-topbar);
+  color: var(--color-text);
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -140,13 +154,14 @@ header nav ul li button:first-child {
   align-items: center;
 }
 
-.menuknop img{
+.menuknop svg{
+  max-width: 100%;
   width: 18.75px;
   height: 14.06px;
   margin-right: 8px;
 }
 
-.menuknop h2{
+.menuknop h4{
   margin: 0;
   font-size: 1em;
 }
@@ -174,8 +189,7 @@ ul, li {
 /********/
 main section h1 {
   padding: 0 .5em;
-  font-family: "Rijksoverheid", Arial, sans-serif;
-  font-weight: 500;
+  font-family: "rijksoverheid", Arial, sans-serif;
   font-size: 2em;
 
   display: block;
@@ -185,8 +199,7 @@ main section h1 {
 }
 
 main section h2 {
-  font-family: "Rijksoverheid", Arial, sans-serif;
-  font-weight: 500;
+  font-family: "rijksoverheid", Arial, sans-serif;
   font-size: 2em;
 
   display: block;
@@ -199,34 +212,24 @@ main section h2 {
 
 main section h3 {
   font-size: 1.5em;
-  font-family: "Rijksoverheid", Arial, sans-serif;
-  font-weight: 300;
+  font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
 }
 
 main section h4 {
   font-size: 1.5em;
-  font-family: "Rijksoverheid", Arial, sans-serif;
-  font-weight: 450;
-  color: var(--color-text);
-}
-
-main section h5 {
-  font-size: 1em;
-  font-family: "Rijksoverheid", Arial, sans-serif;
-  font-weight: 250;
+  font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
 }
 
 main section p {
   font-size: 1em;
-  font-family: "Rijksoverheid", Arial, sans-serif;
-  font-weight: 200;
+  font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
 }
 
 main section img {
-  position: absolute;
+  max-width: 100%;
   left: 0;
   right: 0;
 }
@@ -252,7 +255,7 @@ footer {
 
 footer h3, p {
   font-size: .75em;
-  font-family: "Rijksoverheid", Arial, sans-serif;
+  font-family: "rijksoverheid", Arial, sans-serif;
 
 	color: var(--color-background-topbar);
 }

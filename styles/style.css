@@ -12,7 +12,13 @@
 /****************/
 
 /* jouw code */
+img {
+  max-width: 100%;
+}
 
+svg {
+  width: 4em;
+}
 
 
 /********/
@@ -35,10 +41,12 @@ main section:first-of-type h1 {
 
   background-color: var(--color-main);
 
-  font-family: "Rijksoverheid", Arial, sans-serif;
+  font-family: "rijksoverheid", Arial, sans-serif;
   font-weight: bold;
 	color:var(--color-background-topbar);
 }
+
+
 
 main section:nth-of-type(6) {
   position: relative;
@@ -51,8 +59,8 @@ main section:nth-of-type(6) {
 
 
 main section:nth-of-type(6) > img {
-  position: absolute;
-  
+  /* position: absolute; */
+  max-width: 100%;
 }
 
 
