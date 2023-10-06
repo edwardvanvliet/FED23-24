@@ -181,9 +181,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - object-fit:cover;
   - object-position;
   - ">" = Direct child selector!
-  - Voor de /*<img src="../images/afbeeldingnaam.jpeg" alt="Lorem ipsum">*/.
-    Let hierbij op de "../images/" voor de src.
+  - Voor de img src="../images/afbeeldingnaam.jpeg" alt="Lorem ipsum", punt, punt, slash (/) gebruiken om de juiste "images-map" te selecteren.
+    Let hierbij op de "../images/" voor de src (source).
     (Mappenstructuur, vanaf de root naar de uiteindelijke afbeelding, binnen(in) de "images-map".)
+  - Bij sommige iconen, 'gewoon' de path-nummers uit de inspector van de originele DigiD website kopiëren.
+    Hierdoor kun je ze ook van kleur veranderen bij het gebruik van een dark mode bijvoorbeeld.
 
 </details>
 
