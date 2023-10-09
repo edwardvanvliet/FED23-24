@@ -105,7 +105,7 @@ header {
   flex-wrap: wrap;
 	justify-content: space-between;
   padding: 0.4375rem 1rem 0.4375rem 1rem;
-  max-width: 120rem;
+  max-width: 23.45em;
   max-height: 7.9125rem;
 }
 
@@ -186,10 +186,6 @@ header button:first-child h4{
 header form {
   background-color: var(--color-background-navmenu);
 }
-
-/*ul, li {
-  list-style-type: none;
-}*/
 
 
 /********************************************************/
