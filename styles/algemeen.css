@@ -120,7 +120,7 @@ header nav ul li {
 
   display: flex;
   align-items: center;
-  border-radius: 6.25rem;
+  border-radius: .5em;
   background-color: var(--color-background-topbar);
 }
 
