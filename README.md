@@ -178,8 +178,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     }
   - width: 100%;
   - height: 100%;
-  - object-fit:cover;
-  - object-position;
+  - object-fit:cover; om de afbeelding binnen een vlak/section op te vullen (zonder de afbeelding uit te rekken of smaller te maken); 
+  - object-position; om de positie te bepalen van je image bijvoorbeeld, zo kun je de focus leggen op een bepaalde deel van je afbeelding zonder te croppen;
   - ">" = Direct child selector!
   - Voor de img src="../images/afbeeldingnaam.jpeg" alt="Lorem ipsum" -> punt (.), punt (.), slash (/) gebruiken om de juiste "images-map" te selecteren.
     Let hierbij op de "../images/" voor de src (source).
