@@ -17,7 +17,7 @@ img {
 }
 
 svg {
-  width: 4em;
+  width: 4rem;
 }
 
 
@@ -31,13 +31,13 @@ main section:first-of-type {
 main section:first-of-type h1 {
   position: absolute;
   
-  padding: .5em;
+  padding: .5rem;
   z-index: 50;
   border-radius: .25rem;
 
   display: flex;
   flex-wrap: wrap;
-  padding: 0.8125em 1em 1em;
+  padding: 0.8125rem 1rem 1rem;
 
   background-color: var(--color-main);
 
