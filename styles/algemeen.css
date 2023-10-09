@@ -105,8 +105,8 @@ header {
   flex-wrap: wrap;
 	justify-content: space-between;
   padding: 0.4375rem 1rem 0.4375rem 1rem;
-  max-width: 23.45em;
-  max-height: 7.9125rem;
+  max-width: 120rem; /* 120(r)em = 1920px */ 
+  max-height: 7.9125rem; /* rem staat voor root em */
 }
 
 header nav ul {
@@ -116,7 +116,7 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: .5rem;
+  padding: .5rem; 
 
   display: flex;
   align-items: center;
