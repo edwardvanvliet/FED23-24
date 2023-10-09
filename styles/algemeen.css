@@ -139,7 +139,7 @@ header nav a img:first-child {
 
 }
 
-header nav ul li > img {
+header nav ul li > img:first-child {
   top: 0;
   max-width: 100%;
 
