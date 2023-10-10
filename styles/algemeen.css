@@ -100,14 +100,28 @@ header {
 	
 	position: sticky;
 	top: 0;
+
+  /* nieuw erbij bij animeren-les */
+  min-height: 7.9125rem;
+  line-height: 1;
+  /********************************/
+
   z-index: 100;
 	
 	display: flex;
-  flex-wrap: wrap;
 	justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
   padding: 0.4375rem 1rem 0.4375rem 1rem;
   max-width: 120rem; /* 120(r)em = 1920px voor desktop breedte */ 
   max-height: 7.9125rem; /* rem staat voor root em */
+}
+
+header a {
+  padding: .5em 0;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 header nav ul {
