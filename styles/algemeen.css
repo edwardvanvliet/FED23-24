@@ -107,9 +107,16 @@ header {
 
   z-index: 100;
 	
+  /* Flexbox gebruiken voor in de header */
 	display: flex;
 	justify-content: space-between;
   align-items: center;
+  /* Hieronder "flex-wrap: wrap" gebruikt, dit betekent
+  dat de flex items naar de volgende regel worden ver-
+  plaatst als ze niet in de desbetreffende/beschikbare
+  ruimte passen. Met andere woorden, ze worden dus op
+  meerdere regels weergegeven in plaats van allemaal op
+  één regel.*/
   flex-wrap: wrap;
 
   padding: 0.4375rem 1rem 0.4375rem 1rem;
@@ -124,9 +131,9 @@ header a {
 }
 
 header nav ul {
+  /* Flexbox in de ul van de header gebruiken */
   display: flex;
   list-style: none;
-
 }
 
 header nav ul li {
@@ -147,6 +154,7 @@ header nav:first-of-type{
 
 }
 
+/* DigiD logo linksboven in het klein */
 header nav a img:first-child {
   position: sticky;
 
@@ -155,10 +163,15 @@ header nav a img:first-child {
 
 }
 
+/* Rijksoverheid banner logo bovenaan de pagina in het midden */
 header nav ul li:first-child > img {
   max-width: 100%;
   max-height: 100%;
 
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-gap: .25em;
+  align-items: center;
 }
 
 /*
@@ -173,6 +186,7 @@ header nav ul li > img:first-child {
 }
 */
 
+/* De menuknop rechtsboven */
 header nav ul li button:first-child {
   position: absolute;
 
@@ -188,7 +202,7 @@ header button:first-child {
   background-color: var(--color-background-topbar);
   color: var(--color-text);
   border: none;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   cursor: pointer;
 
   display: flex;
