@@ -289,7 +289,7 @@ footer section:last-child, p {
 
 }
 
-footer section:last-child a {
+footer section:last-child > a {
   text-decoration: none;
   color: var(--color-background-topbar);
   font-size: 1em;
