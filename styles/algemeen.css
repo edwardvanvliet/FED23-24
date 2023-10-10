@@ -290,9 +290,13 @@ footer section:last-child, p {
 }
 
 footer section:last-child a {
+  text-decoration: none;
+  color: var(--color-background-topbar);
+  font-size: 1em;
+  font-family: "rijksoverheid", Arial, sans-serif;
+
   display: flex;
   flex-direction: row;
-
 
 }
 
