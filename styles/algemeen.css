@@ -270,8 +270,9 @@ main section img {
   right: 0;
 }
 
-main section button {
-  background-color: var(--color-background-topbar);
+main section:nth-last-of-type(4) > img {
+  max-width: 45px;
+  max-height: 45px;
 }
 
 /************************/
