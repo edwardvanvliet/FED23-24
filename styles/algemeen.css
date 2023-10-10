@@ -81,7 +81,7 @@
 /* ALGEMENE STIJLEN */
 /********************/
 body {
-    /*margin: 0;*/
+    margin: 0;
     background-color: var(--color-background);
     color: var(--color-text);
 
@@ -95,7 +95,6 @@ body {
 /* LAYOUT VAN DE HEADER MET ZOEKVELD */
 /*************************************/
 header {
-  margin: 0;
 	background-color: var(--color-header-background);
 	
 	position: sticky;
