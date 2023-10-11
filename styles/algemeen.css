@@ -54,7 +54,7 @@
 /************************************************************************************/
 /* Theorie over het importeren van fonts van MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
 /*@font-face {
-  font-family: "Rijksoverheid";
+  font-family: "rijksoverheid"; (gebruik kleine letters!)
   src: 
   url(/fonts/rijksoverheidsansheading-bold.ttf) format("truetype"),
   url(/fonts/rijksoverheidsanstext-regular.ttf) format("truetype"),
@@ -62,20 +62,19 @@
   url(/fonts/rijksoverheidserif-regular.ttf) format("truetype");
 }*/
 
-
 @font-face {
   font-family: "rijksoverheid";
   src: url(../fonts/rijksoverheidsanstext-regular.ttf) format("truetype");
-  font-weight: 400;
-  
+  font-weight: 400;  
 }
 
 @font-face {
   font-family: "rijksoverheid";
   src: url(../fonts/rijksoverheidsansheading-bold.ttf) format("truetype");
   font-weight: 700;
-  
 }
+
+
 
 /********************/
 /* ALGEMENE STIJLEN */
@@ -125,7 +124,7 @@ header {
 }
 
 header a {
-  padding: .5em 0;
+  padding: .5rem 0;
   color: var(--color-text);
   text-decoration: none;
 }
@@ -158,8 +157,9 @@ header nav:first-of-type{
 header nav a img:first-child {
   position: sticky;
 
-  max-width: 2.8125em;
-  max-height: 2.8125em;
+  max-width: 100%;
+  width: 2.8125em;
+  height: 2.8125em;
 
 }
 
@@ -191,8 +191,8 @@ header nav ul li button:first-child {
   position: absolute;
 
   list-style-type: none;
-  top: 0;
-  right: 0;
+  /* top: 0; */
+  padding: 0 1rem;
 
   display: flex;
   text-align: right;
@@ -224,6 +224,11 @@ header form {
   background-color: var(--color-background-navmenu);
 }
 
+header form img {
+  max-width: 100%;
+  width: 0.938rem;
+  height: 0.938rem;
+}
 
 /********************************************************/
 /* LAYOUT VAN HET NAVIGATIEMENU - IN MENUKNOP VERBORGEN */
@@ -254,7 +259,7 @@ main section h2 {
 
   display: block;
   box-sizing: border-box;
-  line-height: .75em;
+  line-height: .75rem;
 
   position: relative;
   color: var(--color-main);
@@ -285,8 +290,9 @@ main section img {
 }
 
 main section:nth-last-of-type(4) > img {
-  max-width: 45px;
-  max-height: 45px;
+  max-width: 100%;
+  width: 2.813rem;
+  height: 2.813rem;
 }
 
 /************************/
