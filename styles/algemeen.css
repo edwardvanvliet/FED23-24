@@ -192,7 +192,8 @@ header nav ul li button:first-child {
 
   list-style-type: none;
   /* top: 0; */
-  padding: 0 1rem;
+  padding-top: 0;
+  padding-right: 1rem;
 
   display: flex;
   text-align: right;
