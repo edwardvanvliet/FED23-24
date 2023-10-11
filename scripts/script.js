@@ -1,17 +1,17 @@
 // JavaScript Document
 console.log("hi");
 
-/*************************************/
-/* Navmenu openen met de MENU button */
-/*************************************/
+/*******************************************/
+/* Navigatiemenu OPENEN met de MENU button */
+/*******************************************/
 
 // Variabelen opstellen, die vervolgens worden geselecteerd met de querySelector //
-var deOpenMenuknop = document.querySelector ("header > button:first-child");
+var openMenuButton = document.querySelector ("header > button:first-of-type");
 var hetMenu = document.querySelector ("nav:nth-of-type(2)");
 
 
 // Laat het menuknop luisteren naar de clicks en voer dan een functie uit //
-deOpenMenuknop.onclick = openNav;
+openMenuButton.onclick = openNav;
 
 // Voeg in de functie een class toe aan de nav //
 function openNav() {
@@ -20,33 +20,18 @@ function openNav() {
 
 
 
+/*********************************************/
+/* Navigatiemenu SLUITEN met de SLUIT button */
+/*********************************************/
 
+// Zoek de sluit button op //
+var sluitButton = document.querySelector("header > button:nth-of-type(2)");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************************/
-/* menu sluiten met de sluit button */
-/************************************/
-
-// Zoek de sluit-button op
-/*var sluitButton = document.querySelector("nav button");
-
-// Laat die button luisteren naar kliks
+// Laat de sluit button luisteren naar de clicks //
 sluitButton.onclick = sluitMenu;
 
-// In de functie verwijder de class van de nav
+// Verwijder in de functie de class van de nav //
 function sluitMenu(){
-  var deNav = document.querySelector("nav");
+  var deNav = document.querySelector("nav:nth-of-type(2)");
   deNav.classList.remove("open");
-}*/
+}
