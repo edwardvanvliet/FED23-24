@@ -321,7 +321,7 @@ footer a {
 
 footer section:last-child, p {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 
