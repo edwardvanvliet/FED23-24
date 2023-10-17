@@ -98,6 +98,13 @@ main section:nth-of-type(3) path {
   max-height: .75rem;
 }
 
+/* "Manieren van inloggen-section" */
+main section:nth-of-type(4) img {
+  max-width: 100%;
+  width: 2.813rem;
+  height: 2.813rem;
+}
+
 /* "Veel gezocht-section" - de groter dan-tekens in de list */
 main section:nth-of-type(5) svg {
   max-width: 100%;

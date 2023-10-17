@@ -174,18 +174,6 @@ header nav ul li:first-child > img {
   align-items: center;
 }
 
-/*
-header nav ul li > img:first-child {
-  top: 0;
-  max-width: 100%;
-
-  list-style-type: none;
-
-  display: flex;
-  justify-content: center;
-}
-*/
-
 /* De menuknop rechtsboven */
 header nav ul li button:first-child {
   position: absolute;
@@ -289,12 +277,6 @@ main section img {
   max-width: 100%;
   left: 0;
   right: 0;
-}
-
-main section:nth-last-of-type(4) > img {
-  max-width: 100%;
-  width: 2.813rem;
-  height: 2.813rem;
 }
 
 
