@@ -337,7 +337,7 @@ footer section:last-child > a {
   font-family: "rijksoverheid", Arial, sans-serif;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
 }
 

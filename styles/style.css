@@ -77,6 +77,11 @@ main section:first-of-type path {
 }
 
 /* Pijl naar rechts (groter dan)-icon in de knop na de tekst "Meer informatie" */
+main section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+}
+
 main section:nth-of-type(2) svg {
   max-width: 100%;
   width: 1rem;
@@ -89,6 +94,11 @@ main section:nth-of-type(2) path {
 }
 
 /* Pijl naar rechts (groter dan)-icon in de knop na de tekst "Code invullen" */
+main section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+}
+
 main section:nth-of-type(3) svg {
   max-width: 100%;
   width: 1rem;
