@@ -72,6 +72,8 @@ main section:first-of-type svg {
 main section:first-of-type path {
   max-width: .434rem;
   max-height: .75rem;
+  
+  color: var(--color-main);
 }
 
 /* Pijl naar rechts (groter dan)-icon in de knop na de tekst "Meer informatie" */
@@ -99,6 +101,10 @@ main section:nth-of-type(3) path {
 }
 
 /* "Manieren van inloggen-section" */
+main section:nth-of-type(4) ul {
+  list-style: none;
+}
+
 main section:nth-of-type(4) img {
   max-width: 100%;
   width: 2.813rem;
@@ -106,6 +112,10 @@ main section:nth-of-type(4) img {
 }
 
 /* "Veel gezocht-section" - de groter dan-tekens in de list */
+main section:nth-of-type(5) ul {
+  list-style: none;
+}
+
 main section:nth-of-type(5) svg {
   max-width: 100%;
   width: .813rem;
