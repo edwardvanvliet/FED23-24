@@ -34,7 +34,8 @@ main section:first-of-type {
   display: flex;
   justify-content: center; /* Horizontaal centreren */
   align-items: center; /* Verticaal centreren */
-  height: 100vh;
+  height: 12.75rem;
+  width: 21.45rem;
 }
 
 main section:first-of-type h1 {
@@ -74,7 +75,7 @@ main section:nth-of-type(5) path {
   max-height: .609rem;
 }
 
-/* het laatste stuk met de meneer die de telefoon vasthoudt */
+/* het laatste stuk met de img van een meneer die de telefoon vasthoudt */
 main section:nth-of-type(6) {
   position: relative;
 
