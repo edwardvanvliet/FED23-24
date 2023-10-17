@@ -179,7 +179,6 @@ header nav ul li button:first-child {
   position: absolute;
 
   list-style-type: none;
-  /* top: 0; */
   padding-top: 0;
   padding-right: 1rem;
 
@@ -206,6 +205,9 @@ header button:first-child svg{
 }
 
 header button:first-child h4 {
+  color: var(--color-text);
+
+  font-family: "rijksoverheid", Arial, sans-serif;
   font-size: 1.125em;
 }
 
@@ -216,7 +218,7 @@ header form {
 
 header form button {
   background-color: var(--color-main);
-  padding: 0rem .75rem 0rem;
+  padding: 0rem .5rem 0rem;
 }
 
 header form img {
