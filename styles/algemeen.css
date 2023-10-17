@@ -214,11 +214,18 @@ header form {
   background-color: var(--color-background-navmenu);
 }
 
+header form button {
+  background-color: var(--color-main);
+  padding: 0rem .75rem 0rem;
+}
+
 header form img {
   max-width: 100%;
   width: 0.938rem;
   height: 0.938rem;
 }
+
+
 
 /********************************************************/
 /* LAYOUT VAN HET NAVIGATIEMENU - IN MENUKNOP VERBORGEN */
