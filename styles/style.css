@@ -12,13 +12,13 @@
 /****************/
 
 /* jouw code */
-img {
+/* img {
   max-width: 100%;
 
   /* nieuwe code */
-  max-height: 100%;
+  /*max-height: 100%;
   /***************/
-}
+/*}*/
 
 /* svg { 
   width: 4rem;
@@ -55,13 +55,14 @@ main section:first-of-type h1 {
 }
 
 main section:first-of-type a {
+  display: block;
   text-decoration: none;
   color: var(--color-main);
   font-size: 1.188em;
   font-family: "rijksoverheid", Arial, sans-serif;
 }
 
-/* de iconen in de manieren van inloggen-section, groter dan-tekens */
+/* "Veel gezocht-section" - de groter dan-tekens in de list */
 main section:nth-of-type(5) svg {
   max-width: 100%;
   width: .813rem;
