@@ -2,7 +2,7 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing: border-box;  
+    box-sizing: border-box;  
 }
 
 
@@ -20,7 +20,7 @@ img {
   /***************/
 }
 
-/* svg {
+/* svg { 
   width: 4rem;
 } */
 
@@ -30,12 +30,16 @@ img {
 /********/
 main section:first-of-type {
   position: relative;
+
+  display: flex;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+  height: 100vh;
 }
 
 main section:first-of-type h1 {
   position: absolute;
   
-  padding: .5rem;
   z-index: 50;
   border-radius: .25rem;
 
@@ -48,6 +52,13 @@ main section:first-of-type h1 {
   font-family: "rijksoverheid", Arial, sans-serif;
   font-weight: bold;
 	color:var(--color-background-topbar);
+}
+
+main section:first-of-type a {
+  text-decoration: none;
+  color: var(--color-main);
+  font-size: 1.188em;
+  font-family: "rijksoverheid", Arial, sans-serif;
 }
 
 /* de iconen in de manieren van inloggen-section, groter dan-tekens */
@@ -74,13 +85,13 @@ main section:nth-of-type(6) > img {
 }
 
 /* Download op de Apple Store en Google Play Store stickers */
-main section:nth-of-type(6) > img:nth-child(2) {
+main section:nth-of-type(6) > img:nth-of-type(2) {
   max-width: 8.725rem;
   min-width: 2.92rem;
 
 }
 
-main section:nth-of-type(6) > img:nth-child(3) {
+main section:nth-of-type(6) > img:nth-of-type(3) {
   max-width: 8.725rem;
   max-height: 2.639rem;
 
