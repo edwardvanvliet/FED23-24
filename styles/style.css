@@ -60,6 +60,8 @@ main section:first-of-type a {
   color: var(--color-main);
   font-size: 1.188em;
   font-family: "rijksoverheid", Arial, sans-serif;
+
+  z-index: 50;
 }
 
 /* "Veel gezocht-section" - de groter dan-tekens in de list */
