@@ -51,13 +51,15 @@ main section:first-of-type h1 {
 }
 
 /* de iconen in de manieren van inloggen-section, groter dan-tekens */
-main section:nth-of-type(5) > svg {
+main section:nth-of-type(5) svg {
   max-width: 100%;
+  width: .813rem;
+  height: .813rem;
 }
 
-main section:nth-of-type(5) > path {
-  width: .353rem;
-  height: .609rem;
+main section:nth-of-type(5) path {
+  max-width: .353rem;
+  max-height: .609rem;
 }
 
 /* het laatste stuk met de meneer die de telefoon vasthoudt */
