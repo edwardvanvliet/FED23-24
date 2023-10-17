@@ -56,7 +56,6 @@ main section:first-of-type h1 {
 }
 
 main section:first-of-type a {
-  display: block;
   text-decoration: none;
   color: var(--color-main);
   font-size: 1.188em;
