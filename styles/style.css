@@ -61,7 +61,41 @@ main section:first-of-type a {
   font-size: 1.188em;
   font-family: "rijksoverheid", Arial, sans-serif;
 
-  z-index: 50;
+}
+
+main section:first-of-type svg {
+  max-width: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+
+main section:first-of-type path {
+  max-width: .434rem;
+  max-height: .75rem;
+}
+
+/* Pijl naar rechts (groter dan)-icon in de knop na de tekst "Meer informatie" */
+main section:nth-of-type(2) svg {
+  max-width: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+
+main section:nth-of-type(2) path {
+  max-width: .434rem;
+  max-height: .75rem;
+}
+
+/* Pijl naar rechts (groter dan)-icon in de knop na de tekst "Code invullen" */
+main section:nth-of-type(3) svg {
+  max-width: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+
+main section:nth-of-type(3) path {
+  max-width: .434rem;
+  max-height: .75rem;
 }
 
 /* "Veel gezocht-section" - de groter dan-tekens in de list */
@@ -76,7 +110,7 @@ main section:nth-of-type(5) path {
   max-height: .609rem;
 }
 
-/* het laatste stuk met de img van een meneer die de telefoon vasthoudt */
+/* Het laatste stuk met de img van een meneer die de telefoon vasthoudt */
 main section:nth-of-type(6) {
   position: relative;
 

@@ -99,7 +99,7 @@ header {
 	position: sticky;
 	top: 0;
 
-  /* nieuw erbij bij animeren-les */
+  /* nieuw erbij tijdens de animeren-les */
   min-height: 7.9125rem;
   line-height: 1;
   /********************************/
@@ -218,9 +218,10 @@ header button:first-child svg{
 }
 
 header button:first-child h4 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
+/* Zoekveld met zoek-knop */
 header form {
   background-color: var(--color-background-navmenu);
 }
@@ -295,6 +296,8 @@ main section:nth-last-of-type(4) > img {
   width: 2.813rem;
   height: 2.813rem;
 }
+
+
 
 /************************/
 /* LAYOUT VAN DE FOOTER */
