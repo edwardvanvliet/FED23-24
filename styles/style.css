@@ -125,6 +125,8 @@ main section:nth-of-type(5) svg {
 main section:nth-of-type(5) path {
   max-width: .353rem;
   max-height: .609rem;
+
+  color: var(--color-text);
 }
 
 /* Het laatste stuk met de img van een meneer die de telefoon vasthoudt */
