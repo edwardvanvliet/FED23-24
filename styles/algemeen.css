@@ -311,6 +311,10 @@ footer {
   bottom: 1.625rem;
 }
 
+footer ul { 
+  list-style: none;
+}
+
 footer h3, p {
   color: var(--color-background-topbar);
   font-size: 1em;
