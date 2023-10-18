@@ -57,7 +57,7 @@ main section:first-of-type h1 {
 
   font-family: "rijksoverheid", Arial, sans-serif;
   font-weight: bold;
-	color:var(--color-background-topbar);
+	color: var(--color-background-topbar);
 }
 
 main section:first-of-type a {
@@ -67,6 +67,9 @@ main section:first-of-type a {
   font-size: 1.188em;
   font-family: "rijksoverheid", Arial, sans-serif;
 
+  position: relative;
+  left: 1em;
+  z-index: 100;
 }
 
 main section:first-of-type svg {
