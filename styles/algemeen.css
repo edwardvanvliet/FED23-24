@@ -154,7 +154,7 @@ header nav:first-of-type{
 }
 
 /* DigiD logo linksboven in het klein */
-header nav a img:first-child {
+header nav a img:nth-of-type(1) {
   position: sticky;
 
   max-width: 100%;
