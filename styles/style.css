@@ -37,6 +37,12 @@ main section:first-of-type {
   padding: 0.813rem 1rem 1rem;
 }
 
+main section:first-of-type img {
+  max-width: 100%;
+  left: 0;
+  right: 0;
+}
+
 main section:first-of-type h1 {
   position: absolute;
   
@@ -67,6 +73,8 @@ main section:first-of-type svg {
   max-width: 100%;
   width: 1rem;
   height: 1rem;
+
+  z-index: 100;
 }
 
 main section:first-of-type path {
@@ -130,6 +138,14 @@ main section:nth-of-type(4) img {
 /* "Veel gezocht-section" - de groter dan-tekens in de list */
 main section:nth-of-type(5) ul {
   list-style: none;
+}
+
+main section:nth-of-type(5) a {
+  display: block;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1em;
+  font-family: "rijksoverheid", Arial, sans-serif;
 }
 
 main section:nth-of-type(5) svg {
