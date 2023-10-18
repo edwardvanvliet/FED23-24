@@ -282,11 +282,11 @@ main section p {
   color: var(--color-text);
 }
 
-main section img {
+/* main section img {
   max-width: 100%;
   left: 0;
   right: 0;
-}
+} */
 
 
 
