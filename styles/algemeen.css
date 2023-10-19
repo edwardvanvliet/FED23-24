@@ -94,8 +94,6 @@ body {
 /* LAYOUT VAN DE HEADER MET ZOEKVELD */
 /*************************************/
 header {
-	background-color: var(--color-background-topbar);
-	
 	position: sticky;
 	top: 0;
 
@@ -107,16 +105,17 @@ header {
   z-index: 100;
 	
   /* Flexbox gebruiken voor in de header */
-	display: flex;
-	justify-content: space-between;
-  align-items: center;
+	/* display: flex; */
+	/* justify-content: space-between; */
+  /* align-items: center; */
+
   /* Hieronder "flex-wrap: wrap" gebruikt, dit betekent
   dat de flex items naar de volgende regel worden ver-
   plaatst als ze niet in de desbetreffende/beschikbare
   ruimte passen. Met andere woorden, ze worden dus op
   meerdere regels weergegeven in plaats van allemaal op
   één regel.*/
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   padding: 0.4375rem 1rem 0.4375rem 1rem;
   max-width: 120rem; /* 120(r)em = 1920px voor desktop breedte */ 
@@ -129,9 +128,20 @@ header a {
   text-decoration: none;
 }
 
-header nav:first-of-type{
+header nav:first-of-type {
+  position: relative;
+  padding: 0 1rem;
+  background-color: var(--color-background-topbar);
+  height: 4.063rem;
+  margin: 0 auto;
+  max-width: 77rem;
+
+  /* Flexbox gebruiken voor in de header */
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
   flex-grow: 1;
 
 }
