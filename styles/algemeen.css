@@ -94,7 +94,7 @@ body {
 /* LAYOUT VAN DE HEADER MET ZOEKVELD */
 /*************************************/
 header {
-  background-color: var(--color-background-topbar);
+  /* background-color: var(--color-background-topbar); */
 	position: sticky;
 	top: 0;
 
