@@ -129,10 +129,19 @@ header a {
   text-decoration: none;
 }
 
+header nav {
+  flex-grow: 1;
+
+}
+
 header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
   /* Flexbox in de ul van de header gebruiken */
   display: flex;
-  list-style: none;
+  gap: 1rem;
 }
 
 header nav ul li {
@@ -141,6 +150,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
   height: 100%;
   border-radius: .5em;
   background-color: var(--color-background-topbar);
