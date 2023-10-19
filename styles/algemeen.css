@@ -117,7 +117,6 @@ header {
   één regel.*/
   /* flex-wrap: wrap; */
 
-  padding: 0.4375rem 1rem 0.4375rem 1rem;
   max-width: 120rem; /* 120(r)em = 1920px voor desktop breedte */ 
   max-height: 7.9125rem; /* rem staat voor root em */
 }
@@ -130,7 +129,7 @@ header a {
 
 header nav:first-of-type {
   position: relative;
-  padding: 0 1rem;
+  padding: 0.4375rem 1rem 0.4375rem 1rem;
   background-color: var(--color-background-topbar);
   height: 4.063rem;
   margin: 0 auto;
@@ -152,8 +151,8 @@ header nav ul {
   list-style: none;
 
   /* Flexbox in de ul van de header gebruiken */
-  /* display: flex; */
-  /* gap: 1rem; */
+  display: flex;
+  gap: 1rem;
 }
 
 header nav ul li {
