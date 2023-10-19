@@ -6,8 +6,8 @@ console.log("hi");
 /*******************************************/
 
 // Variabelen opstellen, die vervolgens worden geselecteerd met de querySelector //
-var openMenuButton = document.querySelector ("header > button:first-of-type");
-var hetMenu = document.querySelector ("nav:nth-of-type(2)");
+var openMenuButton = document.querySelector ("header nav > button:nth-of-type(1)");
+var hetMenu = document.querySelector ("header > nav:nth-of-type(2)");
 
 
 // Laat het menuknop luisteren naar de clicks en voer dan een functie uit //
@@ -25,13 +25,13 @@ function openNav() {
 /*********************************************/
 
 // Zoek de sluit button op //
-var sluitButton = document.querySelector("header > button:nth-of-type(2)");
+var sluitButton = document.querySelector("header nav > button:nth-of-type(2)");
 
 // Laat de sluit button luisteren naar de clicks //
 sluitButton.onclick = sluitMenu;
 
 // Verwijder in de functie de class van de nav //
 function sluitMenu(){
-  var deNav = document.querySelector("nav:nth-of-type(2)");
+  var deNav = document.querySelector("header > nav:nth-of-type(2)");
   deNav.classList.remove("open");
 }
