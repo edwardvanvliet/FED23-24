@@ -231,8 +231,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Voor JavaScript kan je id's gebruiken i.p.v. classes, als er écht geen optie is een class gebruiken.
-  - truncate (dropdown) - text-overflow.
-  - details.
+  - Gebruik "truncate" (dropdown) - text-overflow.
+  - Of gebruik "details" voor de dropdown.
   - Donkerblauwe vlak bij de footer -> "::before" gebruiken en dan ermee positioneren.
 
 </details>
