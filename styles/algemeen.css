@@ -152,8 +152,8 @@ header nav ul {
   list-style: none;
 
   /* Flexbox in de ul van de header gebruiken */
-  display: flex;
-  gap: 1rem;
+  /* display: flex; */
+  /* gap: 1rem; */
 }
 
 header nav ul li {
@@ -167,7 +167,6 @@ header nav ul li {
   border-radius: .5em;
   background-color: var(--color-background-topbar);
 }
-
 
 
 /* DigiD logo linksboven in het klein */
@@ -194,26 +193,18 @@ header .banner {
 }
 
 /* De menuknop rechtsboven */
-header nav ul li button:first-child {
-  position: absolute;
-
-  list-style-type: none;
-  padding-top: 0;
-  padding-right: 1rem;
-
-  display: flex;
-  text-align: right;
-}
-
 header button:first-child {
+  position: sticky;
   background-color: var(--color-background-topbar);
   color: var(--color-text);
+
+  list-style-type: none;
   border: none;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
 
   display: flex;
-  align-items: center;
+  text-align: right;
 }
 
 header button:first-child svg{
