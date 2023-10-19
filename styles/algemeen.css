@@ -229,7 +229,7 @@ header form {
   box-sizing: border-box;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -277,7 +277,7 @@ header nav:nth-of-type(2) {
 header nav:nth-of-type(2).open {
   translate: 0 0;
   transition: 0.4s;
-  
+
 }
 
 /* Een unordered list in het navigatiemenu */
@@ -288,7 +288,7 @@ header nav:nth-of-type(2) ul {
 
 }
 
-/* EEN LINK IN DE LIJST */
+/* De links in de lists, die in een ul zitten */
 header nav:nth-of-type(2) a {
   /* Icoontje en tekst met een gap naast elkaar,
   ook met flex-box */
