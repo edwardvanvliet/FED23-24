@@ -129,10 +129,8 @@ header a {
 
 header nav:first-of-type {
   position: relative;
-  padding: 0.4375rem 1rem 0.4375rem 1rem;
   background-color: var(--color-background-topbar);
   height: 4.063rem;
-  margin: 0 auto;
   max-width: 77rem;
 
   /* Flexbox gebruiken voor in de header */
