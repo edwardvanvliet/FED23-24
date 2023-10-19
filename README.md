@@ -232,7 +232,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - Voor JavaScript kan je id's gebruiken i.p.v. classes, als er écht geen optie is een class gebruiken.
   - truncate (dropdown) - text-overflow.
-  - nog een punt
+  - details
   - ...
 
 </details>
