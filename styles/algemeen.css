@@ -203,6 +203,9 @@ header button:first-child {
 
   display: flex;
   text-align: right;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 header button:first-child svg{
