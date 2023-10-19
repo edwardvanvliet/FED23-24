@@ -105,9 +105,9 @@ header {
   z-index: 100;
 	
   /* Flexbox gebruiken voor in de header */
-	/* display: flex; */
-	/* justify-content: space-between; */
-  /* align-items: center; */
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
 
   /* Hieronder "flex-wrap: wrap" gebruikt, dit betekent
   dat de flex items naar de volgende regel worden ver-
@@ -115,7 +115,7 @@ header {
   ruimte passen. Met andere woorden, ze worden dus op
   meerdere regels weergegeven in plaats van allemaal op
   één regel.*/
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 
   max-width: 120rem; /* 120(r)em = 1920px voor desktop breedte */ 
   max-height: 7.9125rem; /* rem staat voor root em */
