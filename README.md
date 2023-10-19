@@ -221,10 +221,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sten      | Melvin          | Edward    | Jesse        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Hoe zet ik het logo in het centrum van de knop?  | Ik heb een link wat een button moet zijn. Kan ik hiervoor een class gebruiken? Wat is het alternatief?            | Een algemene vraag over States, als je bijv. een link (a) stylet als button, of dan bijv. de visited state nog van toepassing is    | Is nog steeds benieuwd naar hoe je een text dropdown aanpakt    |
+  | Waarom verschijnen mijn menu-items niet? | Voor de video met de pauze/play button heb ik een class en ID toegevoegd. Is dat oké? | Waarom mijn menu items (ook) niet verschijnen? | Heeft een vraag over het jatten van svg's |
+  | Hoe zorg ik dat de gradient de tekst niet meeneemt en doorgaat tot het onderste van het kaartje?            | Hoe zorg ik ervoor dat de afbeeldingen in de carroussel meeschalen met de website (voor desktop)?                | Een tierelantijntje van DigiD nét boven de footer (donkerblauw vierkant vlakje in het midden), hoe ik die moet aanpakken in de HTML/CSS          | ...              |
+  | Andere lelijkheidjes.            | ...                | Wat wordt er van je verwacht qua responsiveness, als je de surface plane (*bling bling) hebt gekozen?          | ...              |
+  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
