@@ -31,7 +31,7 @@ var sluitButton = document.querySelector("header nav > button:nth-of-type(2)");
 sluitButton.onclick = sluitMenu;
 
 // Verwijder in de functie de class van de nav //
-function sluitMenu(){
+function sluitMenu() {
   var deNav = document.querySelector("header > nav:nth-of-type(2)");
   deNav.classList.remove("open");
 }
