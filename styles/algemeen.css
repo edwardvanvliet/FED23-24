@@ -128,7 +128,7 @@ header a {
 }
 
 header nav:first-of-type {
-  position: relative;
+  position: sticky;
   background-color: var(--color-background-topbar);
   height: 4.063rem;
   max-width: 77rem;
@@ -250,7 +250,59 @@ header form img {
 /********************************************************/
 /* LAYOUT VAN HET NAVIGATIEMENU - IN MENUKNOP VERBORGEN */
 /********************************************************/
+header nav:nth-of-type(2) {
+  padding: 1rem;
+  position: fixed;
 
+  /* Grid gebruikt voor het uitklapbare navigatiemenu */
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  
+  /* Hieronder kun je ook "inset: 0;" zeggen, dat
+  betekent hetzelfde als hieronder */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* Hieronder bepaal je met translate welke kant
+  hij in- en uit moet klappen, hierbij kan je ook
+  de snelheid bepalen met transition */
+  translate: 100% 0;
+  transition: 0.3s;
+}
+
+/* Als het navigatiemenu open is */
+header nav:nth-of-type(2).open {
+  translate: 0 0;
+  transition: 0.4s;
+  
+}
+
+/* Een unordered list in het navigatiemenu */
+header nav:nth-of-type(2) ul { 
+  margin: 0; 
+  padding: 0;
+  list-style: none;
+
+}
+
+/* EEN LINK IN DE LIJST */
+header nav:nth-of-type(2) a {
+  /* Icoontje en tekst met een gap naast elkaar,
+  ook met flex-box */
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  
+  border-bottom:solid 1px var(--menu-border);
+}
+
+header nav:nth-of-type(2) a img {
+  width: auto;
+  height: 2rem;
+}
 
 
 
