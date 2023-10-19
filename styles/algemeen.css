@@ -221,6 +221,17 @@ header button:first-child h4 {
 /* Zoekveld met zoek-knop */
 header form {
   background-color: var(--color-background-navmenu);
+  max-width: 77rem;
+  padding: .5rem 1rem;
+  position: relative;
+  width: 100%;
+  height: 3.85rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 header form button {
