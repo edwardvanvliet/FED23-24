@@ -47,7 +47,6 @@ main section:nth-of-type(1) img {
 main section:nth-of-type(1) h1 {
   position: absolute;
   
-  z-index: 50;
   border-radius: .25rem;
 
   display: flex;
