@@ -155,11 +155,9 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: .5rem; 
-
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-grow: 1;
   height: 100%;
   border-radius: .5em;
