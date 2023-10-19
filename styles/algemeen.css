@@ -123,7 +123,7 @@ header {
 }
 
 header a {
-  padding: .5rem 0;
+  /* padding: .5rem 0; */
   color: var(--color-text);
   text-decoration: none;
 }
@@ -133,6 +133,7 @@ header nav:first-of-type {
   background-color: var(--color-background-topbar);
   height: 4.063rem;
   max-width: 77rem;
+  padding: 0 1rem;
 
   /* Flexbox gebruiken voor in de header */
   display: flex;
@@ -172,6 +173,7 @@ header nav a img:nth-of-type(1) {
   max-width: 100%;
   width: 2.8125em;
   height: 2.8125em;
+  padding: .4375rem 0;
 
 }
 
@@ -181,9 +183,11 @@ header .banner {
   width: 2.563rem;
   height: 4.688rem;
 
-  display: flex;
   /* grid-template-columns: min-content min-content; */
   /* grid-gap: .25em; */
+
+  /* Flexbox */
+  display: flex;
   justify-content: center;
   align-items: flex-start;
 }
