@@ -12,10 +12,12 @@ var hetMenu = document.querySelector ("header > nav:nth-of-type(2)");
 
 // Laat het menuknop luisteren naar de clicks en voer dan een functie uit //
 openMenuButton.onclick = openNav;
+console.log(openMenuButton);
 
 // Voeg in de functie een class toe aan de nav //
 function openNav() {
   hetMenu.classList.add("open");
+  console.log(hetMenu);
 }
 
 
