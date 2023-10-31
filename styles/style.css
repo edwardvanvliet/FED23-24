@@ -41,13 +41,12 @@ main section:nth-of-type(1) img {
 /* DigiD - "Laat zien wie je bent"-section */
 main section:nth-of-type(2) {
   position: relative;
-  top: -3.5rem;
-  
-  display: flex;
-  flex-direction: column;
+  top: -3rem;
+
   justify-content: center;
-  align-items: center;
+  padding: 0 1rem;
   /* padding: 0.813rem 1rem 1rem; */
+  
 }
 
 /* Image van vrouwelijke DigiD gebruiker op stoel */
@@ -60,7 +59,7 @@ main section:nth-of-type(2) {
 } */
 
 main section:nth-of-type(2) h1 {
-  position: absolute;
+  position: relative;
   border-radius: .25rem;
   margin: 0;
 
@@ -268,6 +267,11 @@ main section:nth-of-type(7) {
   width: 21.45rem;
   height: 20.82rem;
   border-radius: .25rem;
+
+  position: relative;
+  bottom: 1.5rem;
+  left: 1rem;
+  right: 1rem;
 }
 
 main section.download-content {
