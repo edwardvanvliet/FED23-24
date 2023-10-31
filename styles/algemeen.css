@@ -132,6 +132,22 @@ header a {
   text-decoration: none;
 }
 
+/* STATES DIGID LOGO LINKSBOVEN */
+header nav:nth-of-type(1) a:hover {
+  background-color: var(lightgrey);
+}
+
+header nav:nth-of-type(1) a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+header nav:nth-of-type(1) a:active {
+  background-color: lightskyblue;
+  border-color: #333;
+  color: #eee;
+}
+
 header nav:nth-of-type(1) {
   position: sticky;
   background-color: var(--color-background-topbar);
@@ -216,6 +232,22 @@ header button:first-child {
   column-gap: .5rem;
 }
 
+/* STATES MENUKNOP */
+header button:first-child:hover {
+  background-color: var(lightgrey);
+}
+
+header button:first-child:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+header button:first-child:active {
+  background-color: lightskyblue;
+  border-color: #333;
+  color: #eee;
+}
+
 header button:first-child svg {
   max-width: 100%;
   width: 1.172rem;
@@ -250,6 +282,23 @@ header form {
 
 }
 
+/* STATES FORMULIER */
+/* header form:hover {
+  background-color: var(lightgrey);
+}
+
+header form:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+header form:active {
+  background-color: lightskyblue;
+  border-color: #333;
+  color: #eee;
+} */
+
+
 header form input {
   padding: .625rem 1rem;
   width: 18.7rem;
@@ -262,6 +311,23 @@ header form input {
   font-size: 1em;
 }
 
+/* STATES FORM INPUT */
+header form input:hover {
+  background-color: var(lightgrey);
+}
+
+header form input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+header form input:active {
+  background-color: lightskyblue;
+  border-color: #333;
+  color: #eee;
+}
+
+
 header form button {
   background-color: var(--color-main);
   padding: .5rem .5rem .375rem;
@@ -271,6 +337,23 @@ header form button {
   border-top-right-radius: .313rem;
   border-bottom-right-radius: .313rem;
 }
+
+/* STATES FORM BUTTON */
+header form button:hover {
+  background-color: var(lightgrey);
+}
+
+header form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+header form button:active {
+  background-color: darkorange;
+  border-color: #333;
+  color: #eee;
+}
+
 
 header form img {
   max-width: 100%;
@@ -387,6 +470,22 @@ main p {
   line-height: 1.563rem;
 }
 
+/* STATES VOOR DE LINKS */
+main a:hover {
+  background-color: var(lightblue);
+}
+  
+main a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+main a:active {
+  background-color: lightskyblue;
+  border-color: #333;
+  color: #eee;
+}
+
 /* main section img {
   max-width: 100%;
   left: 0;
@@ -434,13 +533,27 @@ footer a {
   color: var(--color-background-topbar);
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
-  
+}
+
+/* STATES LINKS IN DE FOOTER */
+header a:hover {
+  background-color: var(lightgrey);
+}
+
+header a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px lightskyblue;
+}
+
+header a:active {
+  background-color: lightskyblue;
+  border-color: white;
+  color: #eee;
 }
 
 footer section:nth-of-type(1) > ul {
   padding: 0;
   list-style-type: none;
-
 }
 
 footer section:nth-of-type(2) > ul {
