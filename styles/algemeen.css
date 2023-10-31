@@ -19,6 +19,8 @@
       --color-background-topbar: white;
   
       --color-banner: #174873;
+
+      --color-list-border-lines: lightgrey;
   
       --color-background-navmenu: #FBFBFB;
       --color-background-footer: #282828;
@@ -29,22 +31,24 @@
   /************************************/
   /* CUSTOM PROPERTIES VOOR DARK MODE */
   /************************************/
-  /*@media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     :root {
         --color-main: #D96704;
         
         --color-text: white;
         --color-background: black;
         
-        --color-background-topbar: white;
+        --color-background-topbar: darkgrey;
         
         --color-banner: #174873;
+
+        --color-list-border-lines: lightgrey;
         
         --color-background-navmenu: lightgrey;
         --color-background-footer: #282828;
         --color-background-card: var(--color-background-topbar);
     }
-  }
+  } */
 
 
 
@@ -128,7 +132,7 @@ header a {
   text-decoration: none;
 }
 
-header nav:first-of-type {
+header nav:nth-of-type(1) {
   position: sticky;
   background-color: var(--color-background-topbar);
   height: 4.063rem;
@@ -138,21 +142,24 @@ header nav:first-of-type {
   /* Flexbox gebruiken voor in de header */
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  column-gap: 5.375rem;
+  align-items: flex-start;
 
   flex-wrap: wrap;
   flex-grow: 1;
 
 }
 
-header nav ul {
+header nav ul:nth-of-type(1) {
   margin: 0;
   padding: 0;
   list-style: none;
 
   /* Flexbox in de ul van de header gebruiken */
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  column-gap: 3rem;
+
 }
 
 header nav ul li {
@@ -172,7 +179,7 @@ header nav a img:nth-of-type(1) {
 
   max-width: 100%;
   width: 2.8125em;
-  height: 2.8125em;
+  padding-top: .438rem;
 
 }
 
@@ -199,49 +206,70 @@ header button:first-child {
 
   list-style-type: none;
   border: none;
-  padding: 0.625rem 1.25rem;
+  padding: .25rem .313rem .625rem 1.969rem;
   cursor: pointer;
 
   display: flex;
   text-align: right;
   justify-content: center;
   align-items: center;
-
+  column-gap: .5rem;
 }
 
-header button:first-child svg{
+header button:first-child svg {
   max-width: 100%;
   width: 1.172rem;
-  height: 0.879rem;
-  margin-right: .5rem;
+  height: .879rem;
+}
+
+header button:first-child path {
+  width: 1.172rem;
+  height: .879rem;
 }
 
 header button:first-child h4 {
   color: var(--color-text);
 
   font-family: "rijksoverheid", Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1.2em;
 }
 
 /* Zoekveld met zoek-knop */
 header form {
   background-color: var(--color-background-navmenu);
-  max-width: 77rem;
+  left: 0;
+  right: 0;
   padding: .5rem 1rem;
   position: relative;
-  width: 100%;
   height: 3.85rem;
   box-sizing: border-box;
 
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+}
+
+header form input {
+  padding: .625rem 1rem;
+  width: 18.7rem;
+  height: 2.85rem;
+  border-width: 1px;
+  border-top-left-radius: .313rem;
+  border-bottom-left-radius: .313rem;
+
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-size: 1em;
 }
 
 header form button {
   background-color: var(--color-main);
   padding: .5rem .5rem .375rem;
+  width: 2.75rem;
+  height: 2.85rem;
+  border-width: 1px;
+  border-top-right-radius: .313rem;
+  border-bottom-right-radius: .313rem;
 }
 
 header form img {
@@ -356,6 +384,7 @@ main p {
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
+  line-height: 1.563rem;
 }
 
 /* main section img {
@@ -374,15 +403,23 @@ footer {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 1.125rem;
   grid-auto-flow: dense;
 
-  padding: 1.25rem 1.9375rem 1.625rem;
-  bottom: 1.625rem;
+  padding-top: 1.25rem;
+  padding-right: 1.9375rem;
+  padding-left: 1.9375rem;
+  padding-bottom: 3.25rem;
 }
 
 footer ul { 
   list-style: none;
+}
+
+footer li {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+
 }
 
 footer h3, p {
@@ -400,20 +437,52 @@ footer a {
   
 }
 
-footer section:last-child, p {
-  display: flex;
-  flex-direction: column;
+footer section:nth-of-type(1) > ul {
+  padding: 0;
+  list-style-type: none;
 
 }
 
-footer section:last-child > a {
+footer section:nth-of-type(2) > ul {
+  display: flex;
+  column-gap: .5rem;
+  align-items: flex-start;
+
+  padding: 0;
+  list-style-type: none;
+
+}
+
+footer section:nth-of-type(2) li > a {
+  display: block;
   text-decoration: none;
   color: var(--color-background-topbar);
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
 
-  display: flex;
-  flex-direction: row;
+}
+
+footer section:nth-of-type(2) li:nth-of-type(1) > a {
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-weight: 700;
+
+  /* ANDERE MANIER OM EEN UNDERLINE TE MAKEN */
+  /* text-decoration: underline; */
+  /* text-decoration-color: var(--color-background-topbar); */
+  /* text-decoration-thickness: .125rem; */
+
+  border-bottom: .125rem solid var(--color-background-topbar);
+
+}
+
+footer section:nth-of-type(2) li:nth-of-type(2) > p {
+  margin: 0;
+
+}
+
+footer section:nth-of-type(3) > ul {
+  padding: 0;
+  list-style-type: none;
 
 }
 
@@ -469,5 +538,27 @@ footer section:last-child > a {
   header > a:last-of-type, nav a {
     display: flex;
     
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 8.688rem;
+    
+  }
+
+  footer section:nth-of-type(1) {
+    order: 1;
+
+  }
+
+  footer section:nth-of-type(2) {
+    order: 3;
+
+  }
+
+  footer section:nth-of-type(3) {
+    order: 2;
+
   }
 }
