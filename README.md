@@ -201,7 +201,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - De states bij "Manieren van inloggen"-section staan niet precies op hun plaats bij de links (de a's).
-  - Gebruik aria-label(s) voor de screenreader, met name voor knoppen waarbij het voor de gebruiker onduidelijk is waarvoor de desbetreffende knop voor bedoeld is, waar ga je naartoe? (Feedforward!)
+  - Gebruik aria-label(s) voor de screenreader, met name voor knoppen waarbij het voor de gebruiker onduidelijk is waarvoor de desbetreffende knop voor bedoeld is, waar ga je naartoe als gebruiker? (Feedforward!)
   - ...
 
 </details>
