@@ -202,6 +202,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - De states bij "Manieren van inloggen"-section staan niet precies op hun plaats bij de links (de a's).
   - Gebruik aria-label(s) voor de screenreader, met name voor knoppen waarbij het voor de gebruiker onduidelijk is waarvoor de desbetreffende knop voor bedoeld is, waar ga je naartoe als gebruiker? (Feedforward!)
+  - De states kunnen in de footer wat duidelijker qua kleurgebruik, zeker omdat de background-color van de footer vrij donker is (donkergrijs).
   - ...
 
 </details>
