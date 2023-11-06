@@ -265,7 +265,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb deze periode van FED veel geleerd, hieronder een aantal punten op een rijtje.
 
-  - Hoe je nette, semantische, 'clean' Vanilla code kan schrijven;
+  - Hoe je nette, semantische, 'clean' vanilla code kan schrijven;
     
   - Het beter begrijpen en toepassen van flexbox en grid in je CSS;
     
