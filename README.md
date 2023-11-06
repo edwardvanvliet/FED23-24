@@ -279,7 +279,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   - Het beter begrijpen van JavaScript, hoe je bijvoorbeeld een navigatiemenu in een knop kan verstoppen en hoe je die dan met JavaScript in- en uit kan klappen;
     
-    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Navigatiemenu in- en uitklappen">
+    <img src="readme-images/navigatiemenu_in_en_uitklappen_classlist_javascript.png" width="375px" alt="Navigatiemenu in- en uitklappen met classList">
     
   - Dat toegankelijkheid ook heel erg belangrijk is bij het coderen/maken van je website;
     
