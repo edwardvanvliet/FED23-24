@@ -257,6 +257,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="readme-images/screencapture-file-C-Users-edwar-Dropbox-Mijn-pc-LAPTOP-3ASV6MOR-Downloads-basiswebsite-helpdeskpagina-html-2023-11-06.png" width="375px" alt="Uitkomst pagina 2">
 
+  <img src="readme-images/FireShot%20Capture%20003%20-%20DigiD%20Home%20-%20Navmenu%20uitgeklapt.png" width="375px" alt="Uitkomst navigatiemenu uitgeklapt">
+  
+
+
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb deze periode van FED veel geleerd, hieronder een aantal punten op een rijtje.
