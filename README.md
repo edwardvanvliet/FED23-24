@@ -259,9 +259,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb deze periode van FED veel geleerd, hieronder een aantal punten op een rijtje.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Hoe je (in het algemeen) semantische, 'clean', Vanilla code kan schrijven; 
+  - Het beter begrijpen en toepassen van flexbox en grid in je CSS;
+    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Het beter begrijpen van CSS Selectoren, ik was daar vrij slecht is;
+    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Het beter begrijpen van JavaScript, hoe je bijvoorbeeld een navigatiemenu in een knop kan verstoppen en hoe je die dan met JavaScript in- en uit kan klappen;
+    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Dat toegankelijkheid ook heel erg belangrijk is bij het coderen/maken van je website;
+    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Hoe je aria-labels moet gebruiken voor de screenreader;
+    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+    
 
 
   ### Dit was lastig/Is niet gelukt:
