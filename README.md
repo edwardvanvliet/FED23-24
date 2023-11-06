@@ -290,18 +290,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Hoewel ik voor de surface plane ("bling bling") had gekozen, was ik eigenlijk ook van plan om het ook helemaal responsive te maken voor desktop én tablet.
+  - Hoewel ik voor de surface plane ("bling bling") had gekozen, was ik eigenlijk ook van plan om het ook helemaal responsive te maken voor desktop én tablet.
   Maar helaas had ik daar geen tijd meer voor (met name voor de tablet-versie).
   Ik heb wél wat onderdelen voor de desktop resonsive kunnen maken, zoals de header, footer en wat een paar sections in de main.
   
   <img src="readme-images/Responsiveness_tablet_en_desktop_main_section.png" width="375px" alt="Responsive voor de tablet (én desktop)">
 
-  Qua states wilde ik eigenlijk ook specifieker per knop dieper op ingaan qua vormgeving met de verschillende hover, focus en active states.
+  - Qua states wilde ik eigenlijk ook specifieker per knop dieper op ingaan qua vormgeving met de verschillende hover, focus en active states.
   Uiteindelijk heb ik dat dus niet zo specifiek gedaan als ik had gewild.
 
   <img src="readme-images/States_in_main_te_globaal.png" width="375px" alt="States specifieker">
 
-  Tot slot een klein detailpunt, het is mij ook niet gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
+  - Tot slot een klein detailpunt, het is mij ook niet gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
 
   <img src="readme-images/Rijksoverheid_versierinkje_ontbreekt.png" width="375px" alt="Rijksoverheid versierinkje die ontbreekt">
 
