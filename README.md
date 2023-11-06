@@ -301,7 +301,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="States specifiek">
 
-  Tot slot een klein detailpunt, het is mij ook gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
+  Tot slot een klein detailpunt, het is mij ook niet gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Rijksoverheid versierinkje zoals het had gemoeten">
 
