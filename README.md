@@ -294,7 +294,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Maar helaas had ik daar geen tijd meer voor (met name voor de tablet-versie).
   Ik heb wél wat onderdelen voor de desktop resonsive kunnen maken, zoals de header, footer en wat een paar sections in de main.
   
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Responsive voor de tablet (én desktop)">
+  <img src="readme-images/Responsiveness_tablet_en_desktop_main_section.png" width="375px" alt="Responsive voor de tablet (én desktop)">
 
   Qua states wilde ik eigenlijk ook specifieker per knop dieper op ingaan qua vormgeving met de verschillende hover, focus en active states.
   Uiteindelijk heb ik dat dus niet zo specifiek gedaan als ik had gewild.
