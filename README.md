@@ -271,7 +271,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     
     <img src="readme-images/flexbox_voorbeeld.png" width="375px" alt="Flexbox voorbeeld">
 
-    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Grid voorbeeld">
+    <img src="readme-images/Voorbeeld_display_grid.png" width="375px" alt="Grid voorbeeld">
   
   - Het beter begrijpen van CSS Selectoren, ik was daar altijd vrij slecht is;
     
