@@ -273,9 +273,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
     <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Grid voorbeeld">
   
-  - Het beter begrijpen van CSS Selectoren, ik was daar vrij slecht is;
+  - Het beter begrijpen van CSS Selectoren, ik was daar altijd vrij slecht is;
     
-    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="CSS Selectoren voorbeeld">
+    <img src="readme-images/css_selectoren_voorbeeld.png" width="375px" alt="CSS Selectoren voorbeeld">
   
   - Het beter begrijpen van JavaScript, hoe je bijvoorbeeld een navigatiemenu in een knop kan verstoppen en hoe je die dan met JavaScript in- en uit kan klappen;
     
