@@ -10,25 +10,28 @@
 	
 	<link href="styles/helpdesk.css" rel="stylesheet">
 	<link href="styles/algemeen.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="icon" type="image/svg+xml" href="images/favicon-digid.svg">
 </head>
 
 <body>
+	<a class="skip-link" href="#main">Ga direct naar inhoud</a>
 	<header>
+		<!-- Ik wilde de skip-link eigenlijk eerst binnen de header plaatsen, maar er ontstond toen een conflict met één van de JavaScript-selectoren voor het in- en uitklappen van het navigatiemenu. Toen heb ik de onderstaande skip-link maar bóven de header geplaatst, zie hierboven. -->
+		<!-- <a class="skip-link" href="#main">Ga direct naar inhoud</a> -->
 		<nav>
-			<a href="./index.html">
+			<a href="./index.html" aria-label="Ga naar de DigiD homepagina">
 				<img src="images/digid-logo-header-klein.svg" alt="DigiD logo header klein">
 			</a>
 
 			<ul>
 				<li>
-					<img src="images/rijksoverheid-logo-header-midden.svg" alt="Rijksoverheid header banner logo">
+					<svg class="banner" aria-label="Het logo van de Rijksoverheid (afgebeeld in SVG-formaat)" role="img" width="41" height="75"><title>Rijksoverheid banner logo</title><g fill="none" fill-rule="evenodd"><path fill="#154273" d="M0 0h41v75H0z" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #11355c;"></path><path d="M21.74 57.256H21v-1.935h.74v1.935Zm3.205-8.628h-.657v-1.935h.74v1.935h-.083Zm-13.233-3.306c-.082 0-.41 0-.41.08 0 .081.164 0 .41.081.576.08.822.403 1.233.403.329 0 .74-.242.576-.726 0-.08-.083-.08-.083 0-.082.242-.328.404-.657.404-.411-.162-.493-.242-1.069-.242Zm-3.945 1.935c.082.08.74.968-.329 1.29-.082 0-.082.08 0 .08.74.323 1.151-.241 1.151-.241.411.887-.247 1.37-.247 1.37.083.162.411.404.987.565.246-.08.493-.322.657-.645 0 0 .165.403 0 .726 1.562.161 2.137-1.048 3.288-.887 0 0 .082 0 .082-.08 0-.727-.493-2.178-1.972-2.42-1.48-.242-1.069-.887-1.069-.887.658 0 .986.242.986.242.083-.161-.082-.403-.082-.403.082-.08.082-.323.082-.323-.74 0-.904-.161-.904-.161-.082-.403.165-.968 1.233-.403.247-.242.247-.565.247-.565.082 0 .164-.161.164-.242 0-.16-.822-.645-1.068-.725-.083-.242-.411-.645-1.398-.484-.493.08-.822-.08-.657-.323 0-.08-.082-.08-.082 0-.083.08-.247.403.164.645.411.242.493.645.493.726 0 .08-.082.08-.164 0-.247-.726-1.233-.887-1.89-.484 0 .403.493.645.74.645.163 0 .328-.16.328-.322 0-.08.082-.08.082 0 .082.242-.329.806-.904.484-.575.564-.329 1.37-.329 1.612.082.484-.164.968-.575.726h-.082c.164.403.575.726 1.068.484Zm3.37-3.064c-.247.322-.74.242-.822-.242.575 0 .822 0 .822.242Zm18.164 1.21c-.328 0-.575-.162-.657-.404 0-.08-.082-.08-.082 0-.165.484.246.726.575.726.41 0 .658-.323 1.233-.403.246-.081.41 0 .41-.081 0-.08-.41-.08-.41-.08-.658.16-.74.241-1.069.241Zm5.836 1.45c0-.08 0-.08 0 0-.493.162-.74-.322-.658-.806.083-.241.33-1.048-.328-1.612-.576.322-.987-.242-.904-.484 0-.08.082-.08.082 0 0 .161.164.322.329.322.246 0 .657-.242.74-.645-.658-.403-1.645-.242-1.891.484 0 .08-.165.08-.165 0s0-.484.494-.726c.41-.16.246-.483.164-.645-.082-.08-.164 0-.082 0 .164.242-.165.403-.658.323-.986-.161-1.315.242-1.397.484-.247.08-1.068.483-1.068.725 0 .081.082.162.164.242 0 0 0 .323.246.565 1.069-.645 1.316-.08 1.233.403 0 0-.164.161-.904.161 0 0 0 .242.082.323 0 0-.164.161-.082.403 0 0 .329-.242.987-.242 0 0 .41.565-1.069.887-1.48.242-1.973 1.693-1.973 2.42 0 0 0 .08.083.08 1.233-.242 1.726.968 3.287.887-.164-.323 0-.726 0-.726.083.323.411.565.658.645.575-.161.904-.403.986-.564 0 0-.575-.484-.164-1.371 0 0 .41.564 1.15.242.083 0 .083-.08 0-.08-1.068-.323-.328-1.21-.328-1.291.575.242.986-.08.986-.403Zm-3.37-2.902c-.082.484-.575.564-.822.242 0-.242.247-.242.822-.242Zm-11.014-8.628c0 .16.083.241.083.322.082.161.082.161 0 .242-.083.08-.083.08-.247 0-.082-.08-.164-.08-.329-.08-.246 0-.328.16-.328.241 0 .162.082.242.328.242.165 0 .247-.08.329-.08.164-.081.164-.081.247 0 .082.08 0 .483-.083.806-.41.08-.575.403-.575.564 0 .404.493.726.74.807.246-.161.74-.403.74-.807 0-.16-.165-.483-.576-.564C21 36.693 21 36.21 21 36.21c.082-.081.082-.081.247 0 .082.08.164.08.328.08.247 0 .33-.161.33-.242 0-.161-.083-.242-.33-.242-.164 0-.246.081-.328.081-.165.08-.165.08-.247 0-.082-.08-.082-.08 0-.242.082-.08.082-.161.082-.322 0-.242-.164-.323-.246-.323.082 0-.083.08-.083.323ZM21 38.629a.557.557 0 0 0-.575.564c0 .323.246.565.575.565a.557.557 0 0 0 .575-.565.557.557 0 0 0-.575-.564Zm0 5.16c2.22 0 3.452.404 3.452.404 0-1.049 0-1.694.658-1.613-.33-.887 1.15-1.29 1.15-2.5 0-.806-.575-.887-.74-.887-.493 0-.41.323-.821.323h-.083c0 .161.083.403.33.403.246 0 .246-.242.492-.242.083 0 .165.08.165.323 0 .483-.329 1.048-.74 1.532-.082-.162-.247-.162-.329-.162-.246 0-.41.242-.41.565a.6.6 0 0 0 .081.322c-.164.081-.246.081-.328.081-.165 0-.411-.08-.411-.484 0-.887 1.15-1.613 1.15-2.741 0-.484-.328-1.049-1.068-1.049-.822 0-.658.726-1.315.726h-.082c0 .08.082.403.493.403.41 0 .493-.645.822-.645.164 0 .329.08.329.484 0 .322-.165.887-.411 1.451-.083-.08-.247-.16-.33-.16-.328 0-.492.241-.492.644 0 .242.082.403.246.565-.164.242-.329.403-.575.403-.493 0-.658-.242-.658-.565 0-.322.576-.403.576-.887 0-.322-.247-.483-.411-.483-.247 0-.329.16-.329.16s-.164-.16-.329-.16c-.246 0-.41.16-.41.483 0 .484.575.565.575.887 0 .323-.247.565-.658.565-.247 0-.41-.161-.575-.403a.726.726 0 0 0 .246-.565c0-.322-.246-.645-.493-.645-.164 0-.246.08-.329.161-.246-.564-.41-1.048-.41-1.451s.164-.484.328-.484c.329 0 .411.645.822.645.329 0 .493-.403.493-.403h-.082c-.657 0-.575-.726-1.315-.726s-1.069.484-1.069 1.049c0 1.128 1.151 1.854 1.151 2.741 0 .403-.246.484-.41.484-.083 0-.247-.08-.33-.08 0-.081.083-.162.083-.323 0-.323-.247-.565-.411-.565-.165 0-.247.081-.33.162-.41-.404-.739-.968-.739-1.532 0-.242.082-.323.165-.323.164 0 .164.242.493.242.164 0 .328-.242.328-.403h-.082c-.41 0-.328-.323-.822-.323-.164 0-.74.08-.74.887 0 1.21 1.48 1.532 1.151 2.5.658-.08.658.484.658 1.613-.74 0 .493-.403 2.63-.403Zm-4.027 1.613c-.576.162-.987.242-1.233.323 0-.242.082-.484.328-.565v-.08c-.493-.323-.821.322-.821.322-.165 0-.494.081-.494.323 0 .726-1.726 1.129-2.137 1.21.74.241.987 1.128.987 1.128.493-.483 1.15-.967 1.233-.967.164 0 .164.161.164.242 0 0 0 .08.082 0 .247-.404.165-.484.082-.565 0-.08 0-.403.411-.403v5h-.164c-.082 0-.822-.565-1.726-1.21-.822-.565-1.315-.242-2.301.323-1.233.645-2.548.08-2.548.08-1.069.807-1.48 2.984-1.48 2.984-.246.08-.575.161-.904.161-.822 0-.986-.484-.986-.806 0-1.29 1.644-1.774 1.644-3.065 0-.322-.165-1.532-1.726-1.532H3.986c-.575 0-.74-.403-.822-.564 0-.08-.082 0-.082 0 .082.08-.082.242-.082.564 0 .484.329.807.904.807.247 0 .493-.081.575-.081.083 0 .083 0 .083.08-.247.323-.247.807-.165.968h.082c.165-.564.658-1.048 1.316-1.048.821 0 .821.726.821.887 0 1.048-1.808 1.774-1.808 3.145 0 1.451 1.562 1.693 2.384 1.532-.082 1.452-1.726 1.935-1.726.887 0-.08 0-.08-.082 0-.247.484-.165.968.493 1.048.082 0 0 0 0 .081-.658.403-.33 1.935-.247 2.42.082.644-.657.564-.657.564s-.083 0 0 .08c.575.565 1.232.08 1.232.08.411.162.165.485-.164.727-.082 0-.082.08 0 .08s.74.08.904-.484c.329.323.74.242.822.162.165-.08.74-.323.822.403 0 .08 0 0 .082 0 .493-.565 0-.968-.329-1.048 0 0 .411-.323.74.08h.082c0-.725-.575-.806-.986-.484 0-.08-.164-.483.493-.483 0 0 .082 0 0-.081-.493-.484-.904-.08-.986.08-.247.243-.74.162-.822.162.164-2.661 2.548-1.694 2.877-2.984 0-.08.082-.08.082 0 .082.323.904.323 1.068-.242 0 0 0-.08 0 0-.657.645-2.219-1.451-.082-3.145 1.808-1.451 3.452-.645 4.028-.16 0 .241-.083.241-.165.322v.08c.165.081.411.081.493-.08.411.242.083.564-.082.725v.081c.329.08.658-.322.658-.484h.082v1.532c0 2.178 2.548 2.42 5.26 4.274 2.795-1.854 5.26-2.096 5.26-4.274v-1.532h.083c0 .242.328.565.657.484 0 0 .082 0 0-.08-.164-.081-.493-.404-.082-.726.082.161.329.161.493.08.082 0 0-.08 0-.08-.082 0-.246-.08-.164-.323.575-.484 2.219-1.29 4.027.161 2.137 1.694.576 3.79-.082 3.145.164.645.986.565 1.068.242 0 0 0-.08.083 0 .328 1.29 2.712.323 2.876 2.984-.082 0-.575.08-.822-.161-.082-.081-.493-.565-.986-.081v.08c.658 0 .493.404.493.484-.41-.322-1.068-.241-.986.484 0 .08 0 .08.082 0 .329-.403.74-.161.74-.08-.329.08-.822.403-.329 1.048 0 0 .082.08.082 0 .083-.726.74-.484.822-.403.082.08.576.161.822-.162.082.565.822.484.904.484.082 0 .082 0 0-.08-.328-.162-.575-.565-.164-.726 0 0 .575.484 1.068-.08.083-.081 0-.081 0-.081-.082 0-.74.08-.657-.565 0-.484.41-2.016-.247-2.419 0 0-.082-.08 0-.08.658-.162.74-.565.493-1.049 0-.08-.082-.08-.082 0-.082 1.048-1.726.565-1.726-.887.904.242 2.384-.08 2.384-1.532 0-1.37-1.808-2.177-1.808-3.145 0-.161 0-.887.821-.887.658 0 1.233.484 1.316 1.048h.082c.082-.161.082-.645-.165-.967 0 0 0-.081.083-.081.082.08.328.08.575.08.575 0 .904-.322.904-.806 0-.322-.082-.484-.082-.564 0-.08 0-.08-.082 0-.083.161-.247.564-.822.564h-1.398c-1.561 0-1.726 1.21-1.726 1.532 0 1.21 1.644 1.774 1.644 3.065 0 .322-.164.806-.986.806-.329 0-.74-.08-.904-.161 0 0-.411-2.258-1.48-2.984 0 0-1.315.645-2.548-.08-.986-.484-1.397-.888-2.3-.323-.823.564-1.563 1.21-1.727 1.21h-.164v-5c.41-.08.41.323.41.403 0 .08-.164.242.083.565H27c0-.081.082-.242.164-.242.165 0 .74.484 1.233.967 0 0 .329-.887.987-1.129-.411-.08-2.137-.483-2.137-1.21 0-.241-.247-.322-.494-.322 0 0-.328-.725-.821-.322v.08c.246.081.328.323.328.565-.493-.161-2.712-.726-5.26-.726-1.233 0-2.384.161-3.288.323v1.693h-.74v-1.613Zm-4.685 17.66c-.165-.08-.33-.161-.33-.403V61.61c-.328-.081-1.15-.404-2.876-.404-1.397 0-1.89.323-1.89.404l-.411 2.016s.575-.484 2.63-.404c2.466.162 5.096 1.613 5.096.081v-.887c-1.973 0-2.22.564-2.22.645Zm15.287-.645v.887c0 1.532 2.548.08 5.096-.08 2.055-.162 2.63.403 2.63.403l-.41-2.016c0-.081-.494-.404-1.891-.404-1.726 0-2.548.323-2.877.404v1.048c0 .242-.164.403-.328.403 0-.08-.33-.645-2.22-.645ZM21 61.449c4.027 0 8.055.242 8.63.807.082.08.082 0 .082 0v-2.097c0-.645-4.191-.968-8.63-.968-4.438 0-8.63.323-8.63.968v2.097s0 .08.082 0c.411-.565 4.52-.807 8.466-.807Zm-3.534-9.757-.411-.08v.08l-.493-.242h.41s.083 0 0-.08l-.328-.323s.164.08.493.161c0 0 .082 0 0 0-.164-.161-.329-.484-.329-.484s.411.242.493.323c0 0 .083 0 0 0-.082-.242-.246-.484-.246-.484l.41.403c0-.16-.081-.483-.081-.483l.328.403h.083v-.484s.164.322.164.403h.082c0-.08.164-.403.164-.403v.484h-.082l-.082.564c.575-.161 1.397-1.129 1.973-1.129.657 0 .904.807 2.219.403.329.484.41.887.575 1.452.493.484 1.15.322 1.15-.161 0-.645-.739-.807-.739-1.452 0-.322.247-.726.822-.726.329 0 .74.162.986.162.33 0 .411-.242.411-.323 0-.08.083-.08.083 0V50c0 .403-.658.484-.74.403 0 0-.082 0 0 0 .082.08.082.322 0 .484-.082-.323-.411-.645-.74-.645-.082 0-.329.08-.329.322 0 .403.822.726.822 1.532 0 .807-.822 1.049-1.644.807 0 .806 1.233 1.21 1.233.725.165.242.082.404-.164.484.246.08.246.484.329.726.082.403.493.161.493.161-.165.403-.576.242-.576.242-.246.161.083.242.247.323-.164.08-.41.161-.575-.08-.082.241-.33.241-.411.241-.165 0-.247.161-.247.323-.329-.242-.164-.484 0-.565 0 0-.246-.08-.41.161-.165-.403.164-.564.41-.403 0-.08-.164-.242-.493-.161.082-.161.247-.323.493-.161.165.08.411-.081.411-.081-.493-1.048-1.562-.161-1.808-.968-.082.162-.493.162-.575-.161.082.08.246.161.41-.161.083-.162.165-.403.165-.565 0-.645-.658-1.693-1.644-1.693-.657 0-1.315.242-1.808.564l.493.081c-.082.484-.493.726-.904.645l.082-.564c-.082 0-.246.08-.329.242-.082-.323.165-.484.247-.484-.247 0-.329.161-.411.242-.164-.081-.164-.242-.082-.323Zm1.397 3.629c-.164.242-.329 0-.575 0-.247 0-.247.161-.247.242-.246-.323 0-.484.164-.565 0 0-.246-.161-.41 0 0-.403.328-.484.575-.242 0-.16-.082-.242-.247-.242.082-.08.165-.08.247-.08.246 0 .246.322.41.322.247 0 .576-.322.576-.322s-.246-.645-.164-.968c-.082.08-.411.08-.411-.322.164.16.329 0 .41-.162.083-.08.658-.967 1.48-.967.165 0 .411.08.576.242-.247.322 0 .645.164.564-1.069.403-1.48.564-1.48 1.37 0 .485.165.727.411.646-.082.08-.246.161-.328.161-.247 0-.247-.08-.33-.08-.081 0-.492.242-.492.403 0 .08.082.161.164.242-.082 0-.41 0-.493-.242Zm2.712-8.306c-.328 0-.493.08-.493.161.165.162.329.162.493-.16Zm-1.15.806c.246-.08.493 0 .493 0v.081c-.493.08-.493.242-.822.242-.164 0-.411-.161-.329-.484h.082c0 .08.165.242.576.161Zm-6.247 10.322c.329.403.658 0 1.069 0 .164 0 .41.08.493.484.41-.645-.082-.968-.329-.968.082-.08.493-.322.822.08h.082c0-.725-.575-.805-.986-.483-.082-.322.164-.484.41-.484 0 0 .083 0 0-.08-.492-.565-.903.16-.986.242-.246.241-.986-.242-1.232-.565 0 0 .657-.645.657-1.29v-.08c.082 0 .164.08.247.08.164 0 .41-.08.41-.565-.082.081-.164.162-.246.162-.493 0-1.644-1.774-2.959-1.774-.329 0-.986.242-1.315.564.164.08.164.242.164.403 0 .242-.164.323-.41.404v.08c.657.242 1.89.726 2.136.968.33.242.247.806.083 1.532-.165.726-.576.564-.74.564a.716.716 0 0 0 .575.323c.33 0 .493-.242.658-.242.329 0 .904.403.904.726 0 .161-.164.322-.329.484.165-.081.74 0 .822-.565Zm14.548.484c-.164-.161-.329-.323-.329-.484 0-.322.658-.726.904-.726.165 0 .33.242.658.242.164 0 .41-.08.575-.322-.164 0-.493.08-.74-.565-.164-.725-.246-1.21.083-1.532.246-.242 1.48-.645 2.137-.967v-.081c-.165-.08-.33-.161-.411-.403 0-.162 0-.323.164-.404-.329-.322-.986-.564-1.315-.564-1.315 0-2.384 1.774-2.959 1.774-.082 0-.164 0-.246-.161 0 .564.246.564.41.564.083 0 .165 0 .247-.08v.08c0 .645.658 1.29.658 1.29-.33.323-1.069.807-1.233.565-.082-.08-.493-.806-.987-.242v.08c.33 0 .494.162.411.484-.328-.241-.904-.241-.904.565h.083c.246-.403.74-.161.821-.08-.328.08-.821.402-.328.967.082-.403.328-.484.493-.484.41 0 .74.403 1.068 0 0 .565.576.484.74.484Zm-10.685-10.08c-.082.08-.164 0-.246 0 0 .08.164.323.328.323.082 0 .247-.08.247-.08s.74.241 1.15.322a.906.906 0 0 0-.246.645c-.329-.162-1.562-.807-1.562-.807l-.41.484c-.083.08-.33-.161-.33-.242l.33-.403c-.083-.08-.33 0-.412 0 0-.08.165-.322.576-.242 0-.242-.329-.161-.411-.161.082-.08.329-.323.657-.161l.165-.162-.247-.242.165-.241.164.241 1.397-1.935c0-.08.329-.161.411-.161v.403l-1.397 1.935.329.081-.165.242-.329-.161-.164.322Zm5.014-.322c0 .16.082.403.329.322 0 .161-.411.403-.576.161-.164.323-.082.565.165.726v.08c-.083.162-.33.162-.494-.16-.246.16-.246.564-.082.725 0 0-.74.404-1.315.081-.41-.161-.74-.484-1.315-.403.082-.726.493-.968 1.15-1.049.576-.08.658-.322.576-.564-.164-.08-.575.161-.575.161-.082-.08 0-.242 0-.242 0-.08-.082-.16-.082-.16.41 0 .493-.082.493-.082.082-.403-.329-.483-.658-.241-.164-.162-.164-.323-.164-.323-.082 0-.082-.08-.082-.08 0-.081.493-.323.575-.404 0-.161.164-.322.658-.242.082-.161 0-.564-.083-.725 0 0 0-.081.083 0 .164.08.328.483.493.483 0 0 .575-.322.575-.242l.082.646c.082.08.493 0 .658.08.082 0 .082.08 0 .08-.165 0-.576.243-.658.323.411.323.247.887.247 1.049Z" fill="#FFF" fill-rule="nonzero" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #181a1b;"></path></g></svg>
 				</li>
 
 				<li>
-					<button>
-						<img src="images/hamburgermenu-icon-zwart.svg" alt="Menu icoon hamburgermenu">
-						<h2>Menu</h2>
+					<button aria-hidden="true" aria-label="Open het navigatiemenu" type="button">
+						<svg viewbox="0 0 20 16"><title>Hamburgermenu icon</title><path d="M19 13a1 1 0 0 1 1 1v.5a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V14a1 1 0 0 1 1-1h18Zm0-6.25a1 1 0 0 1 1 1v.5a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-.5a1 1 0 0 1 1-1h18ZM19 .5a1 1 0 0 1 1 1V2a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-.5a1 1 0 0 1 1-1h18Z" fill="#000" fill-rule="evenodd" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #e8e6e3;"></path></svg>
+						Menu
 					</button>
 				</li>
 			</ul>
@@ -37,9 +40,9 @@
 		<!-- uitklapbare navbar (menubalk) -->
 		<nav>
 			<ul>
-				<li>
-					<a href="#">
-						<img src="images/mijn-digid-profiel-icon.svg" alt="Mijn DigiD profiel icon">
+				<li id="mijn-digid-profiel">
+					<a href="#" aria-label="Ga naar Mijn DigiD">
+						<svg viewbox="0 0 18 18"><title>Mijn DigiD profiel icon</title><path d="M4.133 10.819a1.017 1.017 0 0 1 .583 1.946c-.386.116-.611.196-1.102.637-.235.222-.516 1.205-.691 2.317h5.994c.028 0 .055.005.082.007.026-.002.053-.007.08-.007h5.996c-.175-1.112-.456-2.095-.692-2.318-.49-.44-.714-.52-1.102-.636a1.016 1.016 0 0 1 .583-1.946c.664.198 1.16.427 1.876 1.07 1.114 1 1.423 3.9 1.492 4.765a1.016 1.016 0 0 1-1.013 1.096h-7.14c-.027 0-.054-.006-.08-.008-.027.002-.054.008-.082.008H1.78a1.015 1.015 0 0 1-1.013-1.096c.068-.864.377-3.766 1.491-4.765.717-.643 1.212-.872 1.876-1.07ZM8.999.25c2.429 0 4.405 2.447 4.405 5.455 0 3.009-1.976 5.456-4.405 5.456-2.43 0-4.405-2.447-4.405-5.456C4.594 2.697 6.57.25 9 .25Zm0 2.031c-1.287 0-2.374 1.568-2.374 3.424C6.625 7.561 7.712 9.13 9 9.13c1.287 0 2.373-1.568 2.373-3.424 0-1.856-1.086-3.424-2.373-3.424Z" fill="#282828" fill-rule="nonzero"></path></svg>
 						Mijn DigiD
 					</a>
 				</li>
@@ -47,74 +50,226 @@
 				<li>
 					<ul>
 						<li>
-							<a href="./index.html">Home</a>
+							<a aria-current="page" aria-label="Ga naar de DigiD homepagina" class="current" href="#">
+							<svg class="navmenu-arrows" viewbox="0 0 32 32"><title>Arrow point icon naar rechts</title><path class="navmenu-arrows-path" fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path></svg>
+							Home
+							</a>
 						</li>
 
 						<li>
-							<a href="#">Aanvragen & activeren</a>
+							<a aria-label="Ga naar Aanvragen & activeren" href="#">
+							<svg class="navmenu-arrows" viewbox="0 0 32 32"><title>Arrow point icon naar rechts</title><path class="navmenu-arrows-path" fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path></svg>
+							Aanvragen & activeren
+							</a>
 						</li>
 						
 						<li>
-							<a href="#">Manieren van inloggen</a>
+							<a aria-label="Ga naar Manieren van inloggen" href="#">
+							<svg class="navmenu-arrows" viewbox="0 0 32 32"><title>Arrow point icon naar rechts</title><path class="navmenu-arrows-path" fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path></svg>
+							Manieren van inloggen
+							</a>
 						</li>
 
 						<li>
-							<a href="#">Veiligheid</a>
+							<a aria-label="Ga naar Veiligheid" href="#">
+							<svg class="navmenu-arrows" viewbox="0 0 32 32"><title>Arrow point icon naar rechts</title><path class="navmenu-arrows-path" fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path></svg>
+							Veiligheid
+							</a>
 						</li>
 
 						<li>
-							<a href="#">Hulp & Contact</a>
+							<a aria-label="Ga naar Hulp & Contact" href="#">
+							<svg class="navmenu-arrows" viewbox="0 0 32 32"><title>Arrow point icon naar rechts</title><path class="navmenu-arrows-path" fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path></svg>
+							Hulp & Contact
+							</a>
 						</li>
 					</ul>
 				</li>
 			
-				<li>
-					<button type="button">
-						<img src="/images/" alt="Icoon kruisje">
+				<li id="language-toggle">
+					<ul aria-label="Taal toggle, kies uit: Nederlands óf Engels">
+						<li>
+							<a aria-label="Nederlands" lang="nl" href="#">NL</a>
+						</li>
+	
+						<li>
+							<p>|</p>
+						</li>
+	
+						<li>
+							<a aria-label="Engels" lang="en" href="#">EN</a>
+						</li>
+					</ul>
+				</li>
+
+				<li id="sluitknop">
+					<button aria-hidden="true" aria-label="Sluit het navigatiemenu" type="button">
 						Sluit
+						<svg viewbox="0 0 32 32"><title>Kruisje icon</title><defs></defs><path class="close-line" fill="none" stroke="currentColor" stroke-width="2px" stroke-linecap="square" stroke-miterlimit="10" d="m5.054 5.054 22.028 22.028"></path><path class="close-line" id="line12" fill="none" stroke="currentColor" stroke-width="2px" stroke-linecap="square" stroke-miterlimit="10" d="M27.082 5.054 5.054 27.082"></path></svg>
 					</button>
 				</li>
 			</ul>
 		</nav>
 
-		<!-- het zoekbalk met daarin een invulvuld met button - AUTOCOMPLETE -->
-    	<form role="search" action="#">
-        	<input type="search" name="search" id="search" placeholder="Zoeken op DigiD" autocomplete="off" aria-label="zoeken">
-        	<button type="submit">
-				<img src="/images/zoek-icon-wit-zoekbalk-enterknop.svg" alt="Zoek icoontje in de enterknop van de zoekbalk">
+		<!-- het zoekbalk met daarin een invulvuld met button -->
+    	<form aria-label="Zoekbalk DigiD" role="search" action="#">
+        	<input type="search" name="search-helpdesk" id="search-helpdesk" placeholder="Zoeken op DigiD" autocomplete="off" aria-label="Zoeken op DigiD: Wat wilt u zoeken?">
+        	<button aria-label="Zoek" type="submit">
+				<img src="./images/zoek-icon-wit-zoekbalk-enterknop.svg" alt="Zoek icoontje in de enterknop van de zoekbalk">
 			</button>
     	</form>
 	</header>
 
-    <main>
-        <section>
-            <h1>Dit is een Header 1.</h1>
-        </section>
+    <main id="main">
+		<section>
+        	<section>
+            	<form role="search" action="#">
+					<section id="text-section-form">
+						<h1>Waar bent u naar op zoek?</h1>
+						<input type="search" name="helpdesk" id="helpdesk" placeholder="Zoeken op DigiD" autocomplete="off" aria-label="Type hier een zoekopdracht">
+					</section>
+					<button aria-label="Klik hier om te zoeken" type="submit">
+						Zoeken
+						<svg viewbox="0 0 32 32">
+							<title>Zoek icoon</title>
+							<path fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path>
+						</svg>
+					</button>
+				</form>
+        	</section>
+		</section>
+
+		<section>
+			<h2>Veel gezocht</h2>
+			<ul>
+				<li>
+					<a aria-label="Ga naar Ik krijg een foutmelding in de DigiD app" href="#">
+						<svg viewbox="0 0 32 32">
+							<title>Arrow point icon naar rechts</title>
+							<path fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path>
+						</svg>
+						Ik krijg een foutmelding in de DigiD app
+					</a>
+				</li>
+
+				<li>
+					<a aria-label="Ga naar Hoe activeer ik de DigiD app?" href="#">
+						<svg viewbox="0 0 32 32">
+							<title>Arrow point icon naar rechts</title>
+							<path fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path>
+						</svg>
+						Hoe activeer ik de DigiD app?
+					</a>
+				</li>
+				
+				<li>
+					<a aria-label="Ga naar Hoe log ik in met de DigiD app?" href="#">
+						<svg viewbox="0 0 32 32">
+							<title>Arrow point icon naar rechts</title>
+							<path fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path>
+						</svg>
+						Hoe log ik in met de DigiD app?
+					</a>
+				</li>
+				
+				<li>
+					<a aria-label="Ga naar Waarom lukt het activeren van mijn rijbewijs/ID-kaart niet?" href="#">
+						<svg viewbox="0 0 32 32">
+							<title>Arrow point icon naar rechts</title>
+							<path fill="currentColor" d="m9.59 4.6.06-.07a1.83 1.83 0 0 1 2.58 0l10.18 10.18a1.83 1.83 0 0 1 0 2.58L12.23 27.47a1.83 1.83 0 0 1-2.58 0l-.06-.07a1.83 1.83 0 0 1 0-2.58L18.41 16 9.59 7.18a1.83 1.83 0 0 1 0-2.58"></path>
+						</svg>
+						Waarom lukt het activeren van mijn rijbewijs/ID-kaart niet?
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<section id="alleen-vragen-over-DigiD">
+			<section>
+				<p>Wij kunnen alleen vragen over DigiD beantwoorden. Belt u voor iemand anders? Dan hebben wij eerst mondelinge toestemming nodig van die persoon. Belt u voor uw kind (jonger dan 14 jaar)? Dan is toestemming niet nodig.</p>
+			</section>
+		</section>
+
+		<section>
+			<a aria-label="Klik hier als u telefonisch contact op wilt nemen met DigiD" href="#">
+				<ul>
+					<li>
+						<img src="./images/phone-icon-helpdesk-pagina.svg" alt="Icoon van een telefoon in SVG-formaat">
+					</li>
+					<li>
+						<h2>Telefoon</h2>
+					</li>
+				</ul>
+				<p>Bel: +31 88 123 65 55 (lokaal tarief). Op werkdagen van 8.00 tot 22.00 uur. Op zaterdagen van 9.00 uur tot 17.00 uur.</p>
+			</a>
+		</section>
+
+		<section>
+			<a aria-label="Klik hier als uw een vraag wilt stellen via het contactformulier van DigiD" href="#">
+				<ul>
+					<li>
+						<img src="./images/document-contactformulier-icon.svg" alt="Icoon van een contactformulier in SVG-formaat">
+					</li>
+					<li>
+						<h2>Contactformulier</h2>
+					</li>
+				</ul>
+				<p>Stel uw vraag via ons contactformulier. U krijgt dan binnen 2 werkdagen een reactie.</p>
+			</a>
+		</section>
+
+		<section>
+			<a aria-label="Klik hier als uw een vraag wilt stellen via het X-account van DigiD (voorheen Twitter)" href="#">
+				<ul>
+					<li>
+						<img src="./images/X-twitter-logo-black.svg" alt="Icoon van X (voorheen Twitter) in SVG-formaat">
+					</li>
+					<li>
+						<h2>X (Twitter)</h2>
+					</li>
+				</ul>
+				<p>Stuur uw vraag of opmerking via X (voorheen Twitter). Stuur een bericht naar ons X-account: @digidwebcare.</p>
+			</a>
+		</section>
+
+		<section>
+			<a aria-label="Klik hier als u in het buitenland woont" href="#">
+				<h2>Woont u in het buitenland?</h2>
+				<p>Dan kunt u 24/7 contact opnemen met de helpdesk van het ministerie van Buitenlandse Zaken voor vragen over DigiD.</p>
+			</a>
+		</section>
+
+		<section>
+			<a aria-label="Klik hier als u wilt weten hoe u valse berichten kunt herkennen en wat u ermee kunt doen" href="#">
+				<h2>Herken valse berichten</h2>
+				<p>Oplichters kunnen via valse e-mails of sms'jes aan uw gegevens komen. Herken een vals bericht en lees wat u kunt doen.</p>
+			</a>
+		</section>
     </main>
 
-    <footer>
+	<footer>
 		<section>
 			<h3>Algemeen</h3>
 			<ul>
 				<li>
-					<a href="#">Over DigiD</a>
+					<a aria-label="Ga naar Over DigiD" href="#">Over DigiD</a>
 				</li>
 
 				<li>
-					<a href="#">Privacy</a>
+					<a aria-label="Ga naar Privacy" href="#">Privacy</a>
 				</li>
 
 				<li>
-					<a href="#">Toegankelijkheid</a>
+					<a aria-label="Ga naar Toegankelijkheid" href="#">Toegankelijkheid</a>
 				</li>
 			</ul>
 		</section>
 
 		<section>
 			<h3>Language</h3>
-			<ul>
+			<ul aria-label="Taal toggle, kies uit: Nederlands óf Engels">
 				<li>
-					<a href="#">NL</a>
+					<a aria-label="Nederlands" lang="nl" href="#">NL</a>
 				</li>
 
 				<li>
@@ -122,7 +277,7 @@
 				</li>
 
 				<li>
-					<a href="#">EN</a>
+					<a aria-label="Engels" lang="en" href="#">EN</a>
 				</li>
 			</ul>
 		</section>
@@ -131,19 +286,23 @@
 			<h3>Contact</h3>
 			<ul>
 				<li>
-					<a href="./helpdeskpagina.html">Helpdesk</a>
+					<a aria-label="Ga naar Helpdesk" href="./helpdeskpagina.html">Helpdesk</a>
 				</li>
 
 				<li>
-					<a href="#">Ik heb een klacht</a>
+					<a aria-label="Ga naar Ik heb een klacht" href="#">Ik heb een klacht</a>
 				</li>
 
 				<li>
-					<a href="#">Meld kwetsbaarheid</a>
+					<a aria-label="Ga naar Meld kwetsbaarheid" href="#">Meld kwetsbaarheid</a>
 				</li>
 			</ul>
 		</section>
 	</footer>
+	<a aria-label="Klik hier om terug naar boven te gaan" href="#" id="back-to-top">
+		<img src="./images/back-to-top-arrow-up.svg" alt="Terug naar boven pijl icon">
+		<!-- Bron back to top pijl icoon: https://www.svgrepo.com/svg/93813/up-arrow -->
+	</a>
 
 	<script defer src="scripts/script.js"></script>
 </body>
