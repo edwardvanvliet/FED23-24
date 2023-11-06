@@ -285,7 +285,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     
   - Hoe je aria-labels moet gebruiken voor de screenreader;
     
-    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Aria-labels voorbeeld">
+    <img src="readme-images/Aria-label-voorbeeld.png" width="375px" alt="Aria-labels voorbeeld">
     
 
 
