@@ -5,22 +5,32 @@
     box-sizing: border-box;  
 }
   
-  
 
-  /******************************/
-  /* ALGEMENE CUSTOM PROPERTIES */
-  /******************************/
+  /*******************************************/
+  /* ALGEMENE CUSTOM PROPERTIES / LIGHT MODE */
+  /*******************************************/
   :root {
-      --color-main: #D96704;
-  
+      --color-main: #E17000;
+
+      --color-first-heading: white;
+      --color-headers-rest: #E17000;
       --color-text: #111;
+      --color-footer-text: white;
+
+      --color-button-text: #E17000;
+      --color-button-background: white;
+
       --color-background: #F5F5F5;
+      --color-inner-sections-background: white;
   
       --color-background-topbar: white;
   
       --color-banner: #174873;
 
+      --color-header-form-borders: #5A5A5A;
       --color-list-border-lines: lightgrey;
+      --color-navmenu-borders: #282828;
+      --color-navmenu-arrows: #C17000;
   
       --color-background-navmenu: #FBFBFB;
       --color-background-footer: #282828;
@@ -31,25 +41,68 @@
   /************************************/
   /* CUSTOM PROPERTIES VOOR DARK MODE */
   /************************************/
-  /* @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
     :root {
         --color-main: #D96704;
         
+        --color-first-heading: white;
+        --color-headers-rest: #FF962F;
         --color-text: white;
+        --color-footer-text: white;
+
+        --color-button-text: #FF962F;
+        --color-button-background: black;
+
         --color-background: black;
+        --color-inner-sections-background: #181A1B;
         
         --color-background-topbar: darkgrey;
         
         --color-banner: #174873;
 
+        --color-header-form-borders: #5A5A5A;
         --color-list-border-lines: lightgrey;
+        --color-navmenu-borders: white;
+        --color-navmenu-arrows: #FF962F;
         
-        --color-background-navmenu: lightgrey;
+        --color-background-navmenu: #181A1B;
         --color-background-footer: #282828;
         --color-background-card: var(--color-background-topbar);
     }
-  } */
+  }
 
+
+  /****************************************/
+  /* CUSTOM PROPERTIES VOOR HIGH CONTRAST */
+  /****************************************/
+  @media (prefers-contrast: more) {
+    :root {
+        --color-main: #11355c;
+        
+        --color-first-heading: white;
+        --color-text: white;
+        --color-footer-text: white;
+
+        --color-button-text: white;
+        --color-button-background: black;
+
+        --color-background: black;
+        --color-inner-sections-background: #181A1B;
+        
+        --color-background-topbar: darkgrey;
+        
+        --color-banner: #174873;
+
+        --color-header-form-borders: #5A5A5A;
+        --color-list-border-lines: lightgrey;
+        --color-navmenu-borders: white;
+        --color-navmenu-arrows: #11355c;
+        
+        --color-background-navmenu: #181A1B;
+        --color-background-footer: #282828;
+        --color-background-card: var(--color-background-topbar);
+    }
+  }
 
 
 
@@ -93,7 +146,6 @@ body {
 }
 
 
-
 /*************************************/
 /* LAYOUT VAN DE HEADER MET ZOEKVELD */
 /*************************************/
@@ -101,11 +153,8 @@ header {
   background-color: var(--color-background-topbar);
 	position: sticky;
 	top: 0;
-
-  /* nieuw erbij tijdens de animeren-les */
   min-height: 7.9125rem;
   line-height: 1;
-  /********************************/
 
   z-index: 100;
 	
@@ -127,26 +176,38 @@ header {
 }
 
 header a {
-  /* padding: .5rem 0; */
   color: var(--color-text);
   text-decoration: none;
 }
 
-/* STATES DIGID LOGO LINKSBOVEN */
-header nav:nth-of-type(1) a:hover {
-  background-color: var(lightgrey);
+/*************************************************************/
+/* SKIP LINK - Hiermee ga je direct naar de inhoud (de main) */
+/*************************************************************/
+/* Bron skip-link: https://css-tricks.com/how-to-create-a-skip-to-content-link/ */
+.skip-link {
+  display: block;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  color: #b85c00;
+  z-index: 500;
+
+  transform: translateY(-100%);
+  transition: transform 0.3s;
 }
 
-header nav:nth-of-type(1) a:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px blue;
-}
+.skip-links:focus {
+  text-align: center;
+  width: 100%;
+  z-index: 500;
 
-header nav:nth-of-type(1) a:active {
-  background-color: lightskyblue;
-  border-color: #333;
-  color: #eee;
+  transform: translateY(0%);
 }
+/*************************************************************/
+
 
 header nav:nth-of-type(1) {
   position: sticky;
@@ -163,10 +224,9 @@ header nav:nth-of-type(1) {
 
   flex-wrap: wrap;
   flex-grow: 1;
-
 }
 
-header nav ul:nth-of-type(1) {
+header nav:nth-of-type(1) ul:nth-of-type(1) {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -175,38 +235,44 @@ header nav ul:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
   column-gap: 3rem;
-
-}
-
-header nav ul li {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-grow: 1;
-  height: 100%;
-  border-radius: .5em;
-  background-color: var(--color-background-topbar);
 }
 
 
 /* DigiD logo linksboven in het klein */
-header nav a img:nth-of-type(1) {
+header nav:nth-of-type(1) a img:nth-of-type(1) {
   position: sticky;
 
   max-width: 100%;
-  width: 2.8125em;
+  width: 2.8125rem;
   padding-top: .438rem;
-
 }
+
+/*************************************/
+/* STATES LINK DigiD LOGO LINKSBOVEN */
+/*************************************/
+header nav:nth-of-type(1) a:hover {
+  background-color: lightgrey;
+}
+
+header nav:nth-of-type(1) a:focus {
+  outline: none;
+  box-shadow: 0 0 0 .125rem navy;
+}
+
+header nav:nth-of-type(1) a:active {
+  background-color: lightskyblue;
+  border-color: #333;
+  color: #eee;
+}
+/*************************************/
+
 
 /* Rijksoverheid banner logo bovenaan de pagina in het midden */
 header .banner {
+  position: sticky;
   max-width: 100%;
   width: 2.563rem;
   height: 4.688rem;
-
-  /* grid-template-columns: min-content min-content; */
-  /* grid-gap: .25em; */
 
   /* Flexbox */
   display: flex;
@@ -215,10 +281,20 @@ header .banner {
 }
 
 /* De menuknop rechtsboven */
-header button:first-child {
+header nav:nth-of-type(1) ul > li:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+}
+
+header nav:nth-of-type(1) button:first-child {
   position: sticky;
   background-color: var(--color-background-topbar);
-  color: var(--color-text);
+  color: black;
+
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.0625rem;
 
   list-style-type: none;
   border: none;
@@ -232,93 +308,95 @@ header button:first-child {
   column-gap: .5rem;
 }
 
-/* STATES MENUKNOP */
-header button:first-child:hover {
-  background-color: var(lightgrey);
-}
-
-header button:first-child:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px blue;
-}
-
-header button:first-child:active {
-  background-color: lightskyblue;
-  border-color: #333;
-  color: #eee;
-}
-
-header button:first-child svg {
+header nav:nth-of-type(1) button:first-child svg {
   max-width: 100%;
   width: 1.172rem;
-  height: .879rem;
+  height: .938rem;
 }
 
-header button:first-child path {
+header nav:nth-of-type(1) button:first-child path {
   width: 1.172rem;
   height: .879rem;
 }
 
-header button:first-child h4 {
-  color: var(--color-text);
-
-  font-family: "rijksoverheid", Arial, sans-serif;
-  font-size: 1.2em;
+/*******************************/
+/* STATES MENUKNOP & SLUITKNOP */
+/*******************************/
+header nav button:first-child:hover {
+  background-color: lightgrey;
 }
+
+header nav button:first-child:focus {
+  outline: none;
+  box-shadow: 0 0 0 .125rem navy;
+}
+
+header nav button:first-child:active {
+  background-color: lightskyblue;
+  border-color: #333;
+}
+/*******************************/
+
 
 /* Zoekveld met zoek-knop */
 header form {
   background-color: var(--color-background-navmenu);
+  position: relative;
+  height: 3.85rem;
   left: 0;
   right: 0;
   padding: .5rem 1rem;
-  position: relative;
-  height: 3.85rem;
   box-sizing: border-box;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-/* STATES FORMULIER */
-/* header form:hover {
-  background-color: var(lightgrey);
+/****************************/
+/* STATES FORM IN DE HEADER */
+/****************************/
+  header form:hover {
+  background-color: lightgrey;
 }
 
 header form:focus {
   outline: none;
-  box-shadow: 0 0 0 2px blue;
+  box-shadow: 0 0 0 .125rem navy;
 }
 
 header form:active {
   background-color: lightskyblue;
   border-color: #333;
   color: #eee;
-} */
+}
+/****************************/
 
 
 header form input {
   padding: .625rem 1rem;
   width: 18.7rem;
   height: 2.85rem;
-  border-width: 1px;
+
+  border-width: .0625rem;
   border-top-left-radius: .313rem;
   border-bottom-left-radius: .313rem;
+  border-color: var(--color-header-form-borders);
 
   font-family: "rijksoverheid", Arial, sans-serif;
   font-size: 1em;
 }
 
-/* STATES FORM INPUT */
+/**********************************/
+/* STATES FORM INPUT IN DE HEADER */
+/**********************************/
 header form input:hover {
-  background-color: var(lightgrey);
+  background-color: lightgrey;
 }
 
 header form input:focus {
   outline: none;
-  box-shadow: 0 0 0 2px blue;
+  box-shadow: 0 0 0 .125rem navy;
 }
 
 header form input:active {
@@ -326,6 +404,7 @@ header form input:active {
   border-color: #333;
   color: #eee;
 }
+/**********************************/
 
 
 header form button {
@@ -333,19 +412,23 @@ header form button {
   padding: .5rem .5rem .375rem;
   width: 2.75rem;
   height: 2.85rem;
-  border-width: 1px;
+
+  border-width: .0625rem;
   border-top-right-radius: .313rem;
   border-bottom-right-radius: .313rem;
+  border-color: var(--color-main);
 }
 
-/* STATES FORM BUTTON */
+/***********************************/
+/* STATES FORM BUTTON IN DE HEADER */
+/***********************************/
 header form button:hover {
-  background-color: var(lightgrey);
+  background-color: lightgrey;
 }
 
 header form button:focus {
   outline: none;
-  box-shadow: 0 0 0 2px blue;
+  box-shadow: 0 0 0 .125rem navy;
 }
 
 header form button:active {
@@ -353,7 +436,7 @@ header form button:active {
   border-color: #333;
   color: #eee;
 }
-
+/***********************************/
 
 header form img {
   max-width: 100%;
@@ -367,60 +450,231 @@ header form img {
 /* LAYOUT VAN HET NAVIGATIEMENU - IN MENUKNOP VERBORGEN */
 /********************************************************/
 header nav:nth-of-type(2) {
-  padding: 1rem;
-  position: fixed;
+  background-color: var(--color-background-navmenu);
+  padding: 0 7.3625rem 0 1.5rem;
 
-  /* Grid gebruikt voor het uitklapbare navigatiemenu */
+  position: fixed;
+  /* Hieronder kun je bij het positioneren i.p.v.
+  "top:0, right:0, bottom:0, left:0", ook
+  "inset: 0;" zeggen, dit betekent namelijk hetzelfde */
+  inset: 0;
+
+  border-radius: .25rem 0 0 .25rem;
+  overflow-y: scroll;
+
+  z-index: 400;
+
+  /* Grid gebruikt voor het navigatiemenu die uitklapt */
   display: grid;
   align-content: start;
   gap: 1rem;
-  
-  /* Hieronder kun je ook "inset: 0;" zeggen, dat
-  betekent hetzelfde als hieronder */
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 
   /* Hieronder bepaal je met
   "transform:translate(x-as, y-as);"
   welke kant hij in- en uit moet klappen, hierbij
   kan je ook de snelheid bepalen met transition */
   transform: translate(100%, 0);
-  transition: 0.3s;
+  transition: .3s;
 }
 
 /* Als het navigatiemenu open is en hij weer in-
-klapbaar is, door op de sluitknop te klikken */
+klapbaar is, door op de sluitknop te klikken.
+Het navigatiemenu van DigiD is overigens 75%
+in beeld, vandaar de
+"transform: translate(25%, 0)" hieronder, omdat
+het navigatiemenu vanaf de RECHTERKANT uit-
+én inklapt */
 header nav:nth-of-type(2).open {
-  transform: translate(0, 0);
-  transition: 0.4s;
+  transform: translate(25%, 0);
+  transition: .5s;
 }
 
 /* Een unordered list in het navigatiemenu */
 header nav:nth-of-type(2) ul { 
   margin: 0; 
-  padding: 0;
+  padding: 0 0 3.5rem;
   list-style: none;
 
+  /* Flexbox gebruikt voor het navigatiemenu die uitklapt */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 1.125rem;
 }
 
-/* De links in de lists, die in een ul zitten */
+header nav:nth-of-type(2) ul li ul {
+  padding-top: .375rem;
+}
+
+header nav:nth-of-type(2) ul li:nth-of-type(2) ul li {
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-size: 1.125em;
+
+  /* Flexbox gebruikt voor de list-items */
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navmenu-arrows {
+  max-width: 100%;
+  width: .75rem;
+  height: .75rem;
+
+  color: var(--color-navmenu-arrows);
+}
+
+.navmenu-arrows-path {
+  width: .326rem;
+  height: .563rem;
+}
+
+#mijn-digid-profiel {
+  padding: 1.5rem 0 1.5rem;
+  border-bottom: .0625rem solid var(--color-navmenu-borders);
+}
+
+#mijn-digid-profiel > a {
+  text-decoration: underline;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+  text-decoration-color: var(--color-text);
+}
+
+#mijn-digid-profiel a {
+  /* Icoontje en tekst met een gap naast elkaar,
+  met flex-box */
+  display: flex;
+  align-items: center;
+  column-gap: .525rem;
+}
+
+#mijn-digid-profiel svg {
+  max-width: 100%;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+#mijn-digid-profiel path {
+  width: 1.144rem;
+  height: 1.215rem;
+}
+
+/* Hieronder kan je ook de ":not()" pseudo-class selector */
+/* gebruiken. Dan selecteer je alle links ("a's"), */
+/* behálve de eerste "a". */
+/* Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/:not */
 header nav:nth-of-type(2) a {
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+
   /* Icoontje en tekst met een gap naast elkaar,
   ook met flex-box */
   display: flex;
   align-items: center;
-  column-gap: .25rem;
-  
-  border-bottom:solid 1px var(--menu-border);
+  column-gap: .875rem;
 }
 
-header nav:nth-of-type(2) a img {
-  width: auto;
-  height: 2rem;
+header nav:nth-of-type(2) a.current {
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
 }
 
+header nav:nth-of-type(2) a.current svg {
+  color: var(--color-text);
+}
+
+/* De border-streep onder de language toggle */
+#language-toggle {
+  padding: 0 0 1.5rem;
+  border-bottom: .0625rem solid var(--color-navmenu-borders);
+}
+
+/* De language (taal) toggle in het navigatiemenu */
+header nav:nth-of-type(2) ul li:nth-child(3) > ul {
+  display: flex;
+  flex-direction: row;
+  gap: .375rem;
+  align-items: flex-start;
+
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav:nth-of-type(2) ul li:nth-child(3) ul > li:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  width: 1.5rem;
+  padding: .25rem 0;
+  border-bottom: .125rem solid #E17000;
+}
+
+header nav:nth-of-type(2) ul li:nth-child(3) ul > li:nth-of-type(2) {
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+header nav:nth-of-type(2) ul li:nth-child(3) ul > li:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.375rem;
+  padding: .25rem 0;
+}
+
+header nav:nth-of-type(2) ul li:nth-child(3) ul li:nth-of-type(1) > a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1em;
+  font-weight: 700;
+  font-family: "rijksoverheid", Arial, sans-serif;
+}
+
+header nav:nth-of-type(2) ul li:nth-child(3) ul li:nth-of-type(2) > p {
+  margin: 0;
+  color: var(--color-text);
+}
+
+/* De sluitknop, onderin het uitgeklapte navigatiemenu */
+#sluitknop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 4.25rem;
+}
+
+#sluitknop button {
+  position: relative;
+  background-color: transparent;
+  padding: .25rem 0 .5rem;
+  max-width: 4.25rem;
+
+  font-family: "rijksoverheid", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.0625rem;
+
+  border: 0;
+  box-shadow: none;
+  color: var(--color-navmenu-borders);
+  cursor: pointer;
+
+  display: flex;
+  column-gap: .375rem;
+}
+
+#sluitknop svg {
+  max-width: 100%;
+  width: .9375rem;
+  height: .9375rem;
+}
 
 
 
@@ -429,55 +683,59 @@ header nav:nth-of-type(2) a img {
 /* MAIN */
 /********/
 main h1 {
-  padding: 0 .5rem;
   font-family: "rijksoverheid", Arial, sans-serif;
-  font-size: 2em;
+  font-size: 1.4375em;
+  font-weight: 700;
+  color: var(--color-first-heading);
 
   display: block;
   box-sizing: border-box;
-  line-height: .75em;
-  color: var(--color-background-topbar);
 }
 
 main h2 {
   font-family: "rijksoverheid", Arial, sans-serif;
-  font-size: 2em;
+  font-size: 1.375em;
 
   display: block;
   box-sizing: border-box;
   line-height: .75rem;
 
-  position: relative;
-  color: var(--color-main);
+  color: var(--color-headers-rest);
+  margin: 0;
 }
 
 main h3 {
-  font-size: 1.5em;
+  font-size: 1.375em;
   font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
+  margin: 0;
 }
 
 main h4 {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
+  margin: 0;
 }
 
 main p {
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
   color: var(--color-text);
-  line-height: 1.563rem;
+  margin: 0;
+  line-height: 1.5625rem;
 }
 
-/* STATES VOOR DE LINKS */
+/***********************************/
+/* STATES VOOR DE LINKS IN DE MAIN */
+/***********************************/
 main a:hover {
-  background-color: var(lightblue);
+  background-color: lightblue;
 }
   
 main a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px blue;
+  box-shadow: 0 0 0 .125rem navy;
 }
 
 main a:active {
@@ -485,12 +743,7 @@ main a:active {
   border-color: #333;
   color: #eee;
 }
-
-/* main section img {
-  max-width: 100%;
-  left: 0;
-  right: 0;
-} */
+/***********************************/
 
 
 
@@ -505,10 +758,7 @@ footer {
   grid-gap: 1.125rem;
   grid-auto-flow: dense;
 
-  padding-top: 1.25rem;
-  padding-right: 1.9375rem;
-  padding-left: 1.9375rem;
-  padding-bottom: 3.25rem;
+  padding: 1.75rem 1.9375rem 2.75rem;
 }
 
 footer ul { 
@@ -518,38 +768,49 @@ footer ul {
 footer li {
   padding-top: .5rem;
   padding-bottom: .5rem;
-
 }
 
-footer h3, p {
-  color: var(--color-background-topbar);
+footer h3 {
+  color: var(--color-footer-text);
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
 
+footer p {
+  color: var(--color-footer-text);
+  font-size: 1em;
+  font-family: "rijksoverheid", Arial, sans-serif;
 }
 
 footer a {
   text-decoration: none;
-  color: var(--color-background-topbar);
+  color: var(--color-footer-text);
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
 }
 
+/*****************************/
 /* STATES LINKS IN DE FOOTER */
-header a:hover {
-  background-color: var(lightgrey);
+/*****************************/
+footer a:hover {
+  text-decoration: underline;
+  color: var(--color-footer-text);
 }
 
-header a:focus {
+footer a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px lightskyblue;
+  box-shadow: 0 0 0 .125rem lightskyblue;
 }
 
-header a:active {
-  background-color: lightskyblue;
+footer a:active {
   border-color: white;
-  color: #eee;
+
+  text-decoration: underline;
+  color: lightskyblue;
 }
+/*****************************/
 
 footer section:nth-of-type(1) > ul {
   padding: 0;
@@ -563,115 +824,145 @@ footer section:nth-of-type(2) > ul {
 
   padding: 0;
   list-style-type: none;
-
 }
 
 footer section:nth-of-type(2) li > a {
   display: block;
   text-decoration: none;
-  color: var(--color-background-topbar);
+  color: var(--color-footer-text);
   font-size: 1em;
   font-family: "rijksoverheid", Arial, sans-serif;
-
 }
 
 footer section:nth-of-type(2) li:nth-of-type(1) > a {
   font-family: "rijksoverheid", Arial, sans-serif;
   font-weight: 700;
 
-  /* ANDERE MANIER OM EEN UNDERLINE TE MAKEN */
+  border-bottom: .125rem solid var(--color-footer-text);
+  
+  /* MET TEXT-DECORATION KAN JE DE TEKST ÓÓK EVT. ONDERSTREPEN */
   /* text-decoration: underline; */
   /* text-decoration-color: var(--color-background-topbar); */
   /* text-decoration-thickness: .125rem; */
-
-  border-bottom: .125rem solid var(--color-background-topbar);
-
 }
 
 footer section:nth-of-type(2) li:nth-of-type(2) > p {
   margin: 0;
-
 }
 
 footer section:nth-of-type(3) > ul {
   padding: 0;
   list-style-type: none;
+}
 
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: #236fb1;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3.125rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#back-to-top:hover {
+  background-color: #64a6e0;
+}
+
+#back-to-top img {
+  max-width: 100%;
+  padding: .6875rem .75rem .75rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 
 
-/************************************************************/
-/* RESPONSIVENESS ALS SCHERM/BROWSER MINIMAAL 38EM BREED IS */
-/************************************************************/
-/*@media (width > 38em) {
-  header > button:nth-of-type(2) {
-    display:none;
-
-  }
-  
-  nav {
-    position:static;
-    translate:unset;
-    background:unset;
-    
-  }
-  
-  nav button {
-    display:none;
-    
-  }
-  
-  nav ul {
-    display:flex;
-    gap:1em;
-    
-  }
-  
-  nav a {
-    border-bottom: unset;
-    
-    display:flex;
-    flex-direction:column; 
-    
-  }
-  
-  header > a:last-of-type {
-    display:flex;
-    flex-direction:column; 
-    
-  }
-}
-
 /********************************************************************/
-/* STYLING VOOR DE HEADER ALS SCHERM/BROWSER MINIMAAL 57EM BREED IS */
+/* RESPONSIVENESS STYLING ALS SCHERM/BROWSER MINIMAAL 38EM BREED IS */
 /********************************************************************/
-@media (width > 57em) {
+/*@media (width > 38rem) {
+  } */
+
+
+
+
+/***********************************************************************************/
+/* RESPONSIVENESS STYLING VOOR DE HEADER ALS SCHERM/BROWSER MINIMAAL 57EM BREED IS */
+/***********************************************************************************/
+@media (width > 57rem) {
+  header {
+    max-width: 100%;
+    min-height: 4.7rem;
+
+    /* Header-items naar de bovenkant */
+	  display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  header nav:nth-of-type(1) {
+    max-width: 100%;
+  }
+
+  header nav:nth-of-type(1) ul:nth-of-type(1) {
+    /* Flexbox in de ul van de header gebruiken */
+    display: flex;
+    justify-content: space-between;
+    column-gap: 38.0938rem;
+  }
+
   header > a:last-of-type, nav a {
     display: flex;
-    
+  }
+
+  header form {
+    display: none;
+  }
+
+  #digid-gebruiker-banner {
+    height: 29.25rem;
+    overflow: hidden;
+  }
+
+  #digid-gebruiker-banner-afbeelding {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #digid-hoofdvlak-ctas {
+    height: 5.25rem;
+  }
+
+  #digid-hoofdvlak-oranje {
+    top: -5.75rem;
   }
 
   footer {
     display: flex;
     justify-content: center;
     column-gap: 8.688rem;
-    
   }
 
   footer section:nth-of-type(1) {
     order: 1;
-
   }
 
   footer section:nth-of-type(2) {
     order: 3;
-
   }
 
   footer section:nth-of-type(3) {
     order: 2;
-
   }
 }

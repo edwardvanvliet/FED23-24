@@ -6,9 +6,378 @@
 }
   
   
-  
 /****************/
 /* JOUW STYLING */
 /****************/
-  
 /* jouw code */
+
+
+/********/
+/* MAIN */
+/********/
+/* De background-color van de gehele main is op deze
+Helpdesk-pagina wit */
+main {
+    background-color: var(--color-inner-sections-background);
+}
+
+/* Zoekfunctie-section (oranje achtergrond) */
+main section:nth-of-type(1) {
+    position: relative;
+    max-width: 100%;
+    padding: 1rem 1rem;
+}
+
+main section:nth-of-type(1) section {
+    background-color: var(--color-main);
+    padding: 1.25rem 1rem 1.5rem;
+    border-radius: .25rem;
+}
+
+main section:nth-of-type(1) section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 1.875rem;
+}
+
+#text-section-form {
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+#text-section-form h1 {
+    font-family: "rijksoverheid", Arial, sans-serif;
+    font-size: 1.875em;
+    margin: 0;
+}
+
+#text-section-form input {
+    padding: 1rem 1rem;
+    width: 100%;
+
+    border-radius: .25rem;
+    border: none;
+
+    font-family: "rijksoverheid", Arial, sans-serif;
+    font-size: 1em;
+}
+
+main section:nth-of-type(1) section form button {
+    padding: .625rem 1rem;
+    background-color: var(--color-first-heading);
+    border: .0625rem solid var(--color-background-topbar);
+    border-radius: .25rem;
+    box-shadow: 0 .125rem .25rem 0 rgba(40, 40, 40, .24);
+    cursor: pointer;
+
+    font-family: "rijksoverheid", Arial, sans-serif;
+    font-size: 1.1875em;
+    font-weight: 700;
+    color: var(--color-main);
+    line-height: normal;
+    letter-spacing: normal;
+
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+main section:nth-of-type(1) section form button > svg {
+    position: relative;
+    max-width: 100%;
+    width: 1rem;
+    height: 1rem;
+
+    flex-shrink: 0;
+}
+
+main section:nth-of-type(1) section form button > path {
+    width: .4338rem;
+    height: .75rem;
+}
+
+
+/* "Veel gezocht"-section incl. de groter dan-tekens in de list */
+main section:nth-of-type(2) {
+    padding: 2.5rem 1rem 2rem;
+}
+  
+main section:nth-of-type(2) h2 {
+    color: var(--color-text);
+    font-weight: 700;
+    padding: 0 0 0 1rem;
+}
+  
+main section:nth-of-type(2) ul {
+    list-style: none;
+  
+    padding: 0;
+}
+  
+main section:nth-of-type(2) li {
+    position: relative;
+    padding: .9375rem 1.4375rem .9375rem 0;
+    min-height: 3rem;
+    
+    display: flex;
+    align-items: center;
+  
+    border-top: .0625rem solid var(--color-list-border-lines);
+}
+  
+main section:nth-of-type(2) li:last-of-type {
+    border-bottom: .0625rem solid var(--color-list-border-lines);
+}
+  
+main section:nth-of-type(2) a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 1em;
+    font-family: "rijksoverheid", Arial, sans-serif;
+  
+    display: flex;
+    align-items: center;
+    column-gap: .625rem;
+}
+  
+main section:nth-of-type(2) svg {
+    max-width: 100%;
+    width: .8125rem;
+    height: .8125rem;
+  
+    flex-shrink: 0;
+}
+  
+main section:nth-of-type(2) path {
+    max-width: .353rem;
+    max-height: .609rem;
+  
+    color: var(--color-text);
+}
+
+
+/* "Alleen vragen over DigiD"-section */
+main section:nth-of-type(3) {
+    position: relative;
+    padding: 1rem 1rem 2.5rem;
+}
+
+main section:nth-of-type(3) section {
+    background-color: transparent;
+    position: relative;
+    border-radius: .25rem;
+    border: .0625rem solid #d3d3d3;
+    padding: .8125rem 1rem;
+}
+
+
+/* "Telefoon"-section */
+main section:nth-of-type(4) {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontaal centreren */
+    padding: 1.5rem 1rem 1rem;
+}
+
+main section:nth-of-type(4) a {
+    background-color: transparent;
+    position: relative;
+    border-radius: .25rem;
+    border: .0625rem solid #d3d3d3;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .625rem;
+    padding: .8125rem 1rem;
+}
+
+main section:nth-of-type(4) a ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: .625rem;
+}
+
+main section:nth-of-type(4) a ul li img {
+    max-width: 100%;
+    height: 1.875rem;
+}
+
+main section:nth-of-type(4) h2 {
+    color: var(--color-text);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* "Contactformulier"-section */
+main section:nth-of-type(5) {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5625rem 1rem 1rem;
+}
+
+main section:nth-of-type(5) a {
+    background-color: transparent;
+    position: relative;
+    border-radius: .25rem;
+    border: .0625rem solid #d3d3d3;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .625rem;
+    padding: .8125rem 1rem;
+}
+
+main section:nth-of-type(5) a ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: .625rem;
+}
+
+main section:nth-of-type(5) a ul li img {
+    max-width: 100%;
+    height: 1.875rem;
+}
+
+main section:nth-of-type(5) h2 {
+    color: var(--color-text);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* "X (Twitter)"-section */
+main section:nth-of-type(6) {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5625rem 1rem 2.0625rem;
+}
+
+main section:nth-of-type(6) a {
+    background-color: transparent;
+    position: relative;
+    border-radius: .25rem;
+    border: .0625rem solid #d3d3d3;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .625rem;
+    padding: .8125rem 1rem;
+}
+
+main section:nth-of-type(6) a ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: .625rem;
+}
+
+main section:nth-of-type(6) a ul li img {
+    max-width: 100%;
+    height: 1.875rem;
+}
+
+main section:nth-of-type(6) h2 {
+    color: var(--color-text);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+/* "Woont u in het buitenland?"-section */
+main section:nth-of-type(7) {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem 1rem;
+}
+
+main section:nth-of-type(7) a {
+    background-color: transparent;
+    position: relative;
+    border-radius: .25rem;
+    border: .0625rem solid #d3d3d3;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .625rem;
+    padding: 1.375rem 1rem .8125rem;
+}
+
+main section:nth-of-type(7) a > h2 {
+    color: var(--color-text);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* "Herken valse berichten"-section */
+main section:nth-of-type(8) {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5625rem 1rem 8.5625rem;
+}
+
+main section:nth-of-type(8) a {
+    background-color: transparent;
+    position: relative;
+    border-radius: .25rem;
+    border: .0625rem solid #d3d3d3;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .625rem;
+    padding: 1.375rem 1rem .8125rem;
+}
+
+main section:nth-of-type(8) a > h2 {
+    color: var(--color-text);
+    font-weight: 700;
+    text-decoration: underline;
+}
