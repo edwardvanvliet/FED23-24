@@ -324,8 +324,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. [Rijksoverheidfonts.](https://github.com/SLKTH/rijksoverheidfonts)
   4. [MDN: Font-face, fonts importeren.](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
   5. [MDN: Paths - SVG: Scalable Vector Graphics.](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths)
-  6. [CSS-tricks: How to create a skip to content link](https://css-tricks.com/how-to-create-a-skip-to-content-link/)
-  7. Bron 7.
+  6. [CSS-tricks: How to create a skip to content link.](https://css-tricks.com/how-to-create-a-skip-to-content-link/)
+  7. [MDN: How to make a box semi-transparent.](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Make_box_transparent)
   8. ...
 
 </details>
