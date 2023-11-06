@@ -299,7 +299,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Qua states wilde ik eigenlijk ook specifieker per knop dieper op ingaan qua vormgeving met de verschillende hover, focus en active states.
   Uiteindelijk heb ik dat dus niet zo specifiek gedaan als ik had gewild.
 
-  <img src="main/readme-images/States_in_main_te_globaal.png" width="375px" alt="States specifieker">
+  <img src="readme-images/States_in_main_te_globaal.png" width="375px" alt="States specifieker">
 
   Tot slot een klein detailpunt, het is mij ook niet gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
 
