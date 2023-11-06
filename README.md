@@ -269,7 +269,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     
   - Het beter begrijpen en toepassen van flexbox en grid in je CSS;
     
-    <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Flexbox voorbeeld">
+    <img src="readme-images/flexbox_voorbeeld.png" width="375px" alt="Flexbox voorbeeld">
 
     <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Grid voorbeeld">
   
