@@ -203,7 +203,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De states bij "Manieren van inloggen"-section staan niet precies op hun plaats bij de links (de a's).
   - Gebruik aria-label(s) voor de screenreader, met name voor knoppen waarbij het voor de gebruiker onduidelijk is waarvoor de desbetreffende knop voor bedoeld is, waar ga je naartoe als gebruiker? (Feedforward!)
   - De states kunnen in de footer wat duidelijker qua kleurgebruik, zeker omdat de background-color van de footer vrij donker is (donkergrijs).
-  - ...
+  - Een paar aria-labels missen nog, kan meteen worden toegevoegd in de HTML.
+  - Het gebruik van de headings is beter dan de huidige website, daar sprongen ze namelijk van h2 naar h6 bijvoorbeeld.
+  - Er is een hoog contrast kleurpalet toegevoegd (custom properties).
 
 </details>
 
