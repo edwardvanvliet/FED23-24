@@ -303,9 +303,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Tot slot een klein detailpunt, het is mij ook niet gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Rijksoverheid versierinkje zoals het had gemoeten">
-
   <img src="readme-images/Rijksoverheid_versierinkje_ontbreekt.png" width="375px" alt="Rijksoverheid versierinkje die ontbreekt">
+
+  <img src="readme-images/Rijksoverheid_versierinkje_zoals_het_had_gemoeten.png" width="375px" alt="Rijksoverheid versierinkje zoals het had gemoeten">
   
 </details>
 
