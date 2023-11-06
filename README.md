@@ -281,7 +281,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     
     <img src="readme-images/navigatiemenu_in_en_uitklappen_classlist_javascript.png" width="375px" alt="Navigatiemenu in- en uitklappen met classList">
     
-  - Dat toegankelijkheid ook heel erg belangrijk is bij het coderen/maken van je website;
+  - Dat toegankelijkheid ook heel erg belangrijk is bij het coderen/maken van je website (zelfs verplicht vanaf ingang 2025);
     
   - Hoe je aria-labels moet gebruiken voor de screenreader;
     
@@ -290,9 +290,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Hoewel ik voor de surface plane ("bling bling") had gekozen, was ik eigenlijk ook van plan om het ook helemaal responsive te maken voor desktop én tablet.
+  Maar helaas had ik daar geen tijd meer voor (met name voor de tablet-versie).
+  Ik heb wél wat onderdelen voor de desktop resonsive kunnen maken, zoals de header, footer en wat een paar sections in de main.
+  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Responsive voor de tablet (én desktop)">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Qua states wilde ik eigenlijk ook specifieker per knop dieper op ingaan qua vormgeving met de verschillende hover, focus en active states.
+  Uiteindelijk heb ik dat dus niet zo specifiek gedaan als ik had gewild.
+
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="States specifiek">
+
+  Tot slot een klein detailpunt, het is mij ook gelukt om het klein Rijksoverheid versierinkje (donkerblauw vlak) boven de footer te realiseren.
+
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Rijksoverheid versierinkje zoals het had gemoeten">
+
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Rijksoverheid versierinkje die ontbreekt">
+  
 </details>
 
 
