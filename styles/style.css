@@ -409,6 +409,14 @@ main section:nth-of-type(7) {
   border-radius: .25rem;
 }
 
+#download-content h3 {
+  color: var(--color-download-section-text);
+}
+
+#download-content p {
+  color: var(--color-download-section-text);
+}
+
 main section:nth-of-type(7) > ul {
   display: flex;
   align-items: flex-start;

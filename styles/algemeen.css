@@ -14,8 +14,9 @@
 
       --color-first-heading: white;
       --color-headers-rest: #E17000;
-      --color-text: #111;
+      --color-text: black;
       --color-footer-text: white;
+      --color-download-section-text: black;
 
       --color-button-text: #E17000;
       --color-button-background: white;
@@ -28,6 +29,7 @@
       --color-banner: #174873;
 
       --color-header-form-borders: #5A5A5A;
+      --color-header-form-input-background: white;
       --color-list-border-lines: lightgrey;
       --color-navmenu-borders: #282828;
       --color-navmenu-arrows: #C17000;
@@ -49,9 +51,10 @@
         --color-headers-rest: #FF962F;
         --color-text: white;
         --color-footer-text: white;
+        --color-download-section-text: black;
 
-        --color-button-text: #FF962F;
-        --color-button-background: black;
+        --color-button-text: #D96704;
+        --color-button-background: white;
 
         --color-background: black;
         --color-inner-sections-background: #181A1B;
@@ -61,6 +64,7 @@
         --color-banner: #174873;
 
         --color-header-form-borders: #5A5A5A;
+        --color-header-form-input-background: #dfdfdf;
         --color-list-border-lines: lightgrey;
         --color-navmenu-borders: white;
         --color-navmenu-arrows: #FF962F;
@@ -82,9 +86,10 @@
         --color-first-heading: white;
         --color-text: white;
         --color-footer-text: white;
+        --color-download-section-text: black;
 
-        --color-button-text: white;
-        --color-button-background: black;
+        --color-button-text: black;
+        --color-button-background: white;
 
         --color-background: black;
         --color-inner-sections-background: #181A1B;
@@ -94,6 +99,7 @@
         --color-banner: #174873;
 
         --color-header-form-borders: #5A5A5A;
+        --color-header-form-input-background: #dfdfdf;
         --color-list-border-lines: lightgrey;
         --color-navmenu-borders: white;
         --color-navmenu-arrows: #11355c;
@@ -377,6 +383,7 @@ header form input {
   padding: .625rem 1rem;
   width: 18.7rem;
   height: 2.85rem;
+  background-color: var(--color-header-form-input-background);
 
   border-width: .0625rem;
   border-top-left-radius: .313rem;
@@ -385,6 +392,7 @@ header form input {
 
   font-family: "rijksoverheid", Arial, sans-serif;
   font-size: 1em;
+  color: var(--color-download-section-text);
 }
 
 /**********************************/
